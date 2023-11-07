@@ -18,6 +18,21 @@ qvar(y_hat).
 qvar(z_hat).
 qvar(theta).
 
+qvar(xt).
+qvar(yt).
+qvar(zt).
+
+qvar(xty).
+qvar(xtz).
+qvar(ytx).
+qvar(ytz).
+qvar(ztx).
+qvar(zty).
+
+qvar(x_comp).
+qvar(y_comp).
+qvar(z_comp).
+
 %%% Discrete
 
 %%% Control
@@ -136,14 +151,38 @@ adjacent_landmark(theta,zero,pos).
 %%%%%%%%%%%%%%%%%%%%
 
 %%% Landmark Rules
-rule(ball, ball, deriv(y,v)).
-rule(ball_1, ball, deriv(v,a)).
+rule(rxt, joint, mult(x_hat,theta,xt)).
+rule(ryt, joint, mult(y_hat,theta,yt)).
+rule(rzt, joint, mult(z_hat,theta,zt)).
+rule(rxty, joint, mult(xt,y,xty)).
+rule(rxtz, joint, mult(xt,z,xtz)).
+rule(rytx, joint, mult(yt,x,ytx)).
+rule(rytz, joint, mult(yt,z,ytz)).
+rule(rztx, joint, mult(zt,x,ztx)).
+rule(rzty, joint, mult(zt,y,zty)).
+
+rule(rxcomp, joint, sum(zty,x_comp,ytz)).
+rule(rycomp, joint, sum(xtz,y_comp,ytz)).
+rule(rzcomp, joint, sum(ytx,z_comp,ytz)).
+
+% rule(rxprime, joint, sum(x,x_comp,x_prime)).
+% rule(ryprime, joint, sum(y,y_comp,y_prime)).
+% rule(rzprime, joint, sum(z,z_comp,z_prime)).
+
+rule(rxprime, joint, sum(x,x_comp,x)).
+rule(ryprime, joint, sum(y,y_comp,y)).
+rule(rzprime, joint, sum(z,z_comp,z)).
+
+
+% rule(rxupdate, joint, mplus(x,x_prime)).
+% rule(ryupdate, joint, mplus(y,y_prime)).
+% rule(rzupdate, joint, mplus(z,z_prime)).
 
 %%% Correspond
 
 %%% Preconditions
-% Precondition ball
-precond(ball, true).
+% Precondition joint
+precond(joint, true).
 
 
 %%%%%%%%%%%%%%%%%%%%

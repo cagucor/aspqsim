@@ -26,25 +26,16 @@ def main(prg):
     prg.ground([("base", [])])
     prg.ground([("cumulative", [Number(0)])])
 
-    step = 1
-    while step < imin:
-        print("Grounding step ", step)
-        prg.ground([("cumulative", [Number(step)])])
-        step = step + 1
-    
+    step = 3
     while True:
         if imax != None and step > imax:
             break
-        print("\n\nstep... ", step)
+        print("\nstep... ", step)
         prg.ground([("cumulative", [Number(step)])])
-        if step >= iquery: 
-            if step > iquery: prg.releaseExternal(Fun("query", [step-1]))
-            prg.assignExternal(Fun("query", [step]), True)
-            prg.ground([("volatile", [Number(step)])])
-            
-        ret = prg.solve(onModel)
-        print(ret)
-        if step >= imin and ((istop == "SAT" and ret == SolveResult.SAT) or (istop == "UNSAT" and ret != SolveResult.SAT)): break
-        #if step >= imax : break
-        step = step+1
+        ret = prg.solve()
+        if ret.satisfiable:
+          print("\nSolved at step...", step)
+          break
+        step = step + 1
+
 #end.

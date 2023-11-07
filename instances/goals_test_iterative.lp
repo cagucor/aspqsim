@@ -6,12 +6,11 @@
 %
 
 %%% Initial State
-init(y,land(zero),inc).
-init(v,land(vv),dec).
-init(a,land(aa),std).
+init(b,land(zero),std).
+init(a,land(l2),std).
 
 %%% Goal State
-goal(y,land(minf),dec).
+goal(a,land(r1),std).
 
 %%%%%%%%%%%%%%%%%%%%
 % End of Plan - ASP

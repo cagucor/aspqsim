@@ -1,0 +1,15 @@
+clingo version 5.6.2
+Reading from iterative/qdes.lp ...
+Solving...
+Answer: 1
+holds(p(0),y,land(zero),inc) holds(p(0),v,land(vv),dec) holds(p(0),a,land(aa),std) holds_constraint(p(0),ball,deriv(y,v)) holds_constraint(p(0),ball_1,deriv(v,a)) holds_constraint(p(3),ball,deriv(y,v)) holds_constraint(p(3),ball_1,deriv(v,a))
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 0.053s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.053s
+
+step...  3
+
+Solved at step... 3
