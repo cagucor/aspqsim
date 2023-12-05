@@ -11,7 +11,7 @@ init(v,land(vv),dec).
 init(a,land(aa),std).
 
 %%% Goal State
-goal(y,land(minf),dec).
+goal(y,land(zero),dec).
 
 %%%%%%%%%%%%%%%%%%%%
 % End of Plan - ASP

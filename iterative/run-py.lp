@@ -26,7 +26,7 @@ def main(prg):
     prg.ground([("base", [])])
     prg.ground([("cumulative", [Number(0)])])
 
-    step = 3
+    step = 0
     while True:
         if imax != None and step > imax:
             break

@@ -8,10 +8,10 @@
 
 % Time steps and intervals
 % timemax(8).
-% timemax(t).
-% timestep(0..T) :- timemax(T).
-% time(p(T)) :- timestep(T).
-% time(i(T1,T2)) :- timestep(T1), timestep(T2), T2 = T1 + 1.
+timemax(t).
+timestep(0..T) :- timemax(T).
+time(p(T)) :- timestep(T).
+time(i(T1,T2)) :- timestep(T1), timestep(T2), T2 = T1 + 1.
 
 % action(Time, ControlVar, Mag, Dir)
 action(p(T), CQVar, Mag2, Dir2) :- control(CQVar),
