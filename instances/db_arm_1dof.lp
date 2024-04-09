@@ -21,30 +21,35 @@ qvar(x_end).
 qvar(y_end).
 qvar(z_end).
 
-qvar(s_x_end).
-qvar(s_y_end).
-qvar(s_z_end).
+% Base Transform 
+qvar(t00).
+qvar(t01).
+qvar(t02).
+qvar(t10).
+qvar(t11).
+qvar(t12).
+qvar(t20).
+qvar(t21).
+qvar(t22).
 
+% Intermediate Variables
+
+% End-effector
+
+qvar(s_x_end).
 qvar(m_x_end0).
 qvar(m_x_end1).
 qvar(m_x_end2).
+
+qvar(s_y_end).
 qvar(m_y_end0).
 qvar(m_y_end1).
 qvar(m_y_end2).
+
+qvar(s_z_end).
 qvar(m_z_end0).
 qvar(m_z_end1).
 qvar(m_z_end2).
-
-% Base Transform 
-qvar(T000).
-qvar(T001).
-qvar(T002).
-qvar(T010).
-qvar(T011).
-qvar(T012).
-qvar(T020).
-qvar(T021).
-qvar(T022).
 
 %%% Discrete
 
@@ -162,41 +167,41 @@ landmark(m_z_end2,inf).
 
 % Transform Matrix 0
 
-landmark(T000,minf).
-landmark(T000,zero).
-landmark(T000,inf).
+landmark(t00,minf).
+landmark(t00,zero).
+landmark(t00,inf).
 
-landmark(T001,minf).
-landmark(T001,zero).
-landmark(T001,inf).
+landmark(t01,minf).
+landmark(t01,zero).
+landmark(t01,inf).
 
-landmark(T002,minf).
-landmark(T002,zero).
-landmark(T002,inf).
+landmark(t02,minf).
+landmark(t02,zero).
+landmark(t02,inf).
 
-landmark(T010,minf).
-landmark(T010,zero).
-landmark(T010,inf).
+landmark(t10,minf).
+landmark(t10,zero).
+landmark(t10,inf).
 
-landmark(T011,minf).
-landmark(T011,zero).
-landmark(T011,inf).
+landmark(t11,minf).
+landmark(t11,zero).
+landmark(t11,inf).
 
-landmark(T012,minf).
-landmark(T012,zero).
-landmark(T012,inf).
+landmark(t12,minf).
+landmark(t12,zero).
+landmark(t12,inf).
 
-landmark(T020,minf).
-landmark(T020,zero).
-landmark(T020,inf).
+landmark(t20,minf).
+landmark(t20,zero).
+landmark(t20,inf).
 
-landmark(T021,minf).
-landmark(T021,zero).
-landmark(T021,inf).
+landmark(t21,minf).
+landmark(t21,zero).
+landmark(t21,inf).
 
-landmark(T022,minf).
-landmark(T022,zero).
-landmark(T022,inf).
+landmark(t22,minf).
+landmark(t22,zero).
+landmark(t22,inf).
 
 %%% adjacent_landmark
 
@@ -288,32 +293,32 @@ adjacent_landmark(m_z_end2, zero, inf).
 
 % Transform Matrix 0
 
-adjacent_landmark(T000,minf,zero).
-adjacent_landmark(T000,zero,inf).
+adjacent_landmark(t00,minf,zero).
+adjacent_landmark(t00,zero,inf).
 
-adjacent_landmark(T001,minf,zero).
-adjacent_landmark(T001,zero,inf).
+adjacent_landmark(t01,minf,zero).
+adjacent_landmark(t01,zero,inf).
 
-adjacent_landmark(T002,minf,zero).
-adjacent_landmark(T002,zero,inf).
+adjacent_landmark(t02,minf,zero).
+adjacent_landmark(t02,zero,inf).
 
-adjacent_landmark(T010,minf,zero).
-adjacent_landmark(T010,zero,inf).
+adjacent_landmark(t10,minf,zero).
+adjacent_landmark(t10,zero,inf).
 
-adjacent_landmark(T011,minf,zero).
-adjacent_landmark(T011,zero,inf).
+adjacent_landmark(t11,minf,zero).
+adjacent_landmark(t11,zero,inf).
 
-adjacent_landmark(T012,minf,zero).
-adjacent_landmark(T012,zero,inf).
+adjacent_landmark(t12,minf,zero).
+adjacent_landmark(t12,zero,inf).
 
-adjacent_landmark(T020,minf,zero).
-adjacent_landmark(T020,zero,inf).
+adjacent_landmark(t20,minf,zero).
+adjacent_landmark(t20,zero,inf).
 
-adjacent_landmark(T021,minf,zero).
-adjacent_landmark(T021,zero,inf).
+adjacent_landmark(t21,minf,zero).
+adjacent_landmark(t21,zero,inf).
 
-adjacent_landmark(T022,minf,zero).
-adjacent_landmark(T022,zero,inf).
+adjacent_landmark(t22,minf,zero).
+adjacent_landmark(t22,zero,inf).
 
 %%%%%%%%%%%%%%%%%%%%
 %% Region and Rules
@@ -330,35 +335,35 @@ rule(c_base_x, base, const(x0, land(zero))).
 rule(c_base_y, base, const(y0, land(zero))).
 rule(c_base_z, base, const(z0, land(zero))).
 
-% Transform Matrices
+% Transform Matrix
 
-rule(t_000, transform, const(T000, interval(zero,inf))).
-rule(t_011, transform, const(T011, interval(zero,inf))).
-rule(t_022, transform, const(T022, interval(zero,inf))).
-rule(t_001, transform, mult(theta0, z_hat0, T001)).
-rule(t_002, transform, mult(theta0, y_hat0, T002)).
-rule(t_010, transform, mult(theta0, z_hat0, T010)).
-rule(t_012, transform, mult(theta0, x_hat0, T012)).
-rule(t_020, transform, mult(theta0, y_hat0, T020)).
-rule(t_021, transform, mult(theta0, x_hat0, T021)).
+rule(t_00, transform, const(t00, interval(zero,inf))).
+rule(t_11, transform, const(t11, interval(zero,inf))).
+rule(t_22, transform, const(t22, interval(zero,inf))).
+rule(t_01, transform, mult(theta0, z_hat0, t01)).
+rule(t_02, transform, mult(theta0, y_hat0, t02)).
+rule(t_10, transform, mult(theta0, z_hat0, t10)).
+rule(t_12, transform, mult(theta0, x_hat0, t12)).
+rule(t_20, transform, mult(theta0, y_hat0, t20)).
+rule(t_21, transform, mult(theta0, x_hat0, t21)).
 
 % End Effector
 
-rule(e_m_x0, effector, mult(T000, x_end, m_x_end0)).
-rule(e_m_x1, effector, mult(T001, y_end, m_x_end1)).
-rule(e_m_x2, effector, mult(T002, z_end, m_x_end2)).
+rule(e_m_x0, effector, mult(t00, x_end, m_x_end0)).
+rule(e_m_x1, effector, mult(t01, y_end, m_x_end1)).
+rule(e_m_x2, effector, mult(t02, z_end, m_x_end2)).
 rule(e_s_x, effector, sum(m_x_end0, m_x_end1, s_x_end)).
 rule(e_x, effector, sum(m_x_end2, s_x_end, x_end)).
 
-rule(e_m_y0, effector, mult(T010, x_end, m_y_end0)).
-rule(e_m_y1, effector, mult(T011, y_end, m_y_end1)).
-rule(e_m_y2, effector, mult(T012, z_end, m_y_end2)).
+rule(e_m_y0, effector, mult(t10, x_end, m_y_end0)).
+rule(e_m_y1, effector, mult(t11, y_end, m_y_end1)).
+rule(e_m_y2, effector, mult(t12, z_end, m_y_end2)).
 rule(e_s_y, effector, sum(m_y_end0, m_y_end1, s_y_end)).
 rule(e_y, effector, sum(m_y_end2, s_y_end, y_end)).
 
-rule(e_m_z0, effector, mult(T020, x_end, m_z_end0)).
-rule(e_m_z1, effector, mult(T021, y_end, m_z_end1)).
-rule(e_m_z2, effector, mult(T022, z_end, m_z_end2)).
+rule(e_m_z0, effector, mult(t20, x_end, m_z_end0)).
+rule(e_m_z1, effector, mult(t21, y_end, m_z_end1)).
+rule(e_m_z2, effector, mult(t22, z_end, m_z_end2)).
 rule(e_s_z, effector, sum(m_z_end0, m_z_end1, s_z_end)).
 rule(e_z, effector, sum(m_z_end2, s_z_end, z_end)).
 

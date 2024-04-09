@@ -1,4 +1,4 @@
-%
+
 % Author: Carlos Aguilera, UNSW Australia
 %
 % 5 DoF Arm Database
@@ -93,81 +93,81 @@ qvar(m_z_end1).
 qvar(m_z_end2).
 
 % Base Transform 
-qvar(T000).
-qvar(T001).
-qvar(T002).
-qvar(T010).
-qvar(T011).
-qvar(T012).
-qvar(T020).
-qvar(T021).
-qvar(T022).
+qvar(t000).
+qvar(t001).
+qvar(t002).
+qvar(t010).
+qvar(t011).
+qvar(t012).
+qvar(t020).
+qvar(t021).
+qvar(t022).
 
 % First Transform 
-qvar(T100).
-qvar(T101).
-qvar(T102).
-qvar(T110).
-qvar(T111).
-qvar(T112).
-qvar(T120).
-qvar(T121).
-qvar(T122).
+qvar(t100).
+qvar(t101).
+qvar(t102).
+qvar(t110).
+qvar(t111).
+qvar(t112).
+qvar(t120).
+qvar(t121).
+qvar(t122).
 
 % Second Transform 
-qvar(T200).
-qvar(T201).
-qvar(T202).
-qvar(T210).
-qvar(T211).
-qvar(T212).
-qvar(T220).
-qvar(T221).
-qvar(T222).
+qvar(t200).
+qvar(t201).
+qvar(t202).
+qvar(t210).
+qvar(t211).
+qvar(t212).
+qvar(t220).
+qvar(t221).
+qvar(t222).
 
 % Third Transform 
-qvar(T300).
-qvar(T301).
-qvar(T302).
-qvar(T310).
-qvar(T311).
-qvar(T312).
-qvar(T320).
-qvar(T321).
-qvar(T322).
+qvar(t300).
+qvar(t301).
+qvar(t302).
+qvar(t310).
+qvar(t311).
+qvar(t312).
+qvar(t320).
+qvar(t321).
+qvar(t322).
 
 % Fourth Transform 
-qvar(T400).
-qvar(T401).
-qvar(T402).
-qvar(T410).
-qvar(T411).
-qvar(T412).
-qvar(T420).
-qvar(T421).
-qvar(T422).
+qvar(t400).
+qvar(t401).
+qvar(t402).
+qvar(t410).
+qvar(t411).
+qvar(t412).
+qvar(t420).
+qvar(t421).
+qvar(t422).
 
 % Fifth Transform 
-qvar(T500).
-qvar(T501).
-qvar(T502).
-qvar(T510).
-qvar(T511).
-qvar(T512).
-qvar(T520).
-qvar(T521).
-qvar(T522).
+qvar(t500).
+qvar(t501).
+qvar(t502).
+qvar(t510).
+qvar(t511).
+qvar(t512).
+qvar(t520).
+qvar(t521).
+qvar(t522).
 
 % 0-1 Matrix (compound 0)
-qvar(C000).
-qvar(C001).
-qvar(C002).
-qvar(C010).
-qvar(C011).
-qvar(C012).
-qvar(C020).
-qvar(C021).
-qvar(C022).
+qvar(c000).
+qvar(c001).
+qvar(c002).
+qvar(c010).
+qvar(c011).
+qvar(c012).
+qvar(c020).
+qvar(c021).
+qvar(c022).
 
 % Intermediate Variables Compound 0
 qvar(m000).
@@ -213,15 +213,15 @@ qvar(s021).
 qvar(s022).
 
 % 0-1-2 Matrix (compound 1)
-qvar(C100).
-qvar(C101).
-qvar(C102).
-qvar(C110).
-qvar(C111).
-qvar(C112).
-qvar(C120).
-qvar(C121).
-qvar(C122).
+qvar(c100).
+qvar(c101).
+qvar(c102).
+qvar(c110).
+qvar(c111).
+qvar(c112).
+qvar(c120).
+qvar(c121).
+qvar(c122).
 
 % Intermediate Variables Compound 1
 qvar(m100).
@@ -268,15 +268,15 @@ qvar(s122).
 
 
 % 0-1-2-3 Matrix (compound 2)
-qvar(C200).
-qvar(C201).
-qvar(C202).
-qvar(C210).
-qvar(C211).
-qvar(C212).
-qvar(C220).
-qvar(C221).
-qvar(C222).
+qvar(c200).
+qvar(c201).
+qvar(c202).
+qvar(c210).
+qvar(c211).
+qvar(c212).
+qvar(c220).
+qvar(c221).
+qvar(c222).
 
 % Intermediate Variables Compound 2
 qvar(m200).
@@ -323,15 +323,15 @@ qvar(s222).
 
 
 % 0-1-2-3-4 Matrix (compound 3)
-qvar(C300).
-qvar(C301).
-qvar(C302).
-qvar(C310).
-qvar(C311).
-qvar(C312).
-qvar(C320).
-qvar(C321).
-qvar(C322).
+qvar(c300).
+qvar(c301).
+qvar(c302).
+qvar(c310).
+qvar(c311).
+qvar(c312).
+qvar(c320).
+qvar(c321).
+qvar(c322).
 
 % Intermediate Variables Compound 3
 qvar(m300).
@@ -377,15 +377,15 @@ qvar(s321).
 qvar(s322).
 
 % 0-1-2-3-4-5 Matrix (compound 4)
-qvar(C400).
-qvar(C401).
-qvar(C402).
-qvar(C410).
-qvar(C411).
-qvar(C412).
-qvar(C420).
-qvar(C421).
-qvar(C422).
+qvar(c400).
+qvar(c401).
+qvar(c402).
+qvar(c410).
+qvar(c411).
+qvar(c412).
+qvar(c420).
+qvar(c421).
+qvar(c422).
 
 % Intermediate Variables Compound 4
 qvar(m400).
@@ -821,261 +821,261 @@ landmark(m_z_end2,inf).
 
 % Transform Matrix 0
 
-landmark(T000,minf).
-landmark(T000,zero).
-landmark(T000,inf).
+landmark(t000,minf).
+landmark(t000,zero).
+landmark(t000,inf).
 
-landmark(T001,minf).
-landmark(T001,zero).
-landmark(T001,inf).
+landmark(t001,minf).
+landmark(t001,zero).
+landmark(t001,inf).
 
-landmark(T002,minf).
-landmark(T002,zero).
-landmark(T002,inf).
+landmark(t002,minf).
+landmark(t002,zero).
+landmark(t002,inf).
 
-landmark(T010,minf).
-landmark(T010,zero).
-landmark(T010,inf).
+landmark(t010,minf).
+landmark(t010,zero).
+landmark(t010,inf).
 
-landmark(T011,minf).
-landmark(T011,zero).
-landmark(T011,inf).
+landmark(t011,minf).
+landmark(t011,zero).
+landmark(t011,inf).
 
-landmark(T012,minf).
-landmark(T012,zero).
-landmark(T012,inf).
+landmark(t012,minf).
+landmark(t012,zero).
+landmark(t012,inf).
 
-landmark(T020,minf).
-landmark(T020,zero).
-landmark(T020,inf).
+landmark(t020,minf).
+landmark(t020,zero).
+landmark(t020,inf).
 
-landmark(T021,minf).
-landmark(T021,zero).
-landmark(T021,inf).
+landmark(t021,minf).
+landmark(t021,zero).
+landmark(t021,inf).
 
-landmark(T022,minf).
-landmark(T022,zero).
-landmark(T022,inf).
+landmark(t022,minf).
+landmark(t022,zero).
+landmark(t022,inf).
 
 % Transform Matrix 1
 
-landmark(T100,minf).
-landmark(T100,zero).
-landmark(T100,inf).
+landmark(t100,minf).
+landmark(t100,zero).
+landmark(t100,inf).
 
-landmark(T101,minf).
-landmark(T101,zero).
-landmark(T101,inf).
+landmark(t101,minf).
+landmark(t101,zero).
+landmark(t101,inf).
 
-landmark(T102,minf).
-landmark(T102,zero).
-landmark(T102,inf).
+landmark(t102,minf).
+landmark(t102,zero).
+landmark(t102,inf).
 
-landmark(T110,minf).
-landmark(T110,zero).
-landmark(T110,inf).
+landmark(t110,minf).
+landmark(t110,zero).
+landmark(t110,inf).
 
-landmark(T111,minf).
-landmark(T111,zero).
-landmark(T111,inf).
+landmark(t111,minf).
+landmark(t111,zero).
+landmark(t111,inf).
 
-landmark(T112,minf).
-landmark(T112,zero).
-landmark(T112,inf).
+landmark(t112,minf).
+landmark(t112,zero).
+landmark(t112,inf).
 
-landmark(T120,minf).
-landmark(T120,zero).
-landmark(T120,inf).
+landmark(t120,minf).
+landmark(t120,zero).
+landmark(t120,inf).
 
-landmark(T121,minf).
-landmark(T121,zero).
-landmark(T121,inf).
+landmark(t121,minf).
+landmark(t121,zero).
+landmark(t121,inf).
 
-landmark(T122,minf).
-landmark(T122,zero).
-landmark(T122,inf).
+landmark(t122,minf).
+landmark(t122,zero).
+landmark(t122,inf).
 
 % Transform Matrix 2
 
-landmark(T200,minf).
-landmark(T200,zero).
-landmark(T200,inf).
+landmark(t200,minf).
+landmark(t200,zero).
+landmark(t200,inf).
 
-landmark(T201,minf).
-landmark(T201,zero).
-landmark(T201,inf).
+landmark(t201,minf).
+landmark(t201,zero).
+landmark(t201,inf).
 
-landmark(T202,minf).
-landmark(T202,zero).
-landmark(T202,inf).
+landmark(t202,minf).
+landmark(t202,zero).
+landmark(t202,inf).
 
-landmark(T210,minf).
-landmark(T210,zero).
-landmark(T210,inf).
+landmark(t210,minf).
+landmark(t210,zero).
+landmark(t210,inf).
 
-landmark(T211,minf).
-landmark(T211,zero).
-landmark(T211,inf).
+landmark(t211,minf).
+landmark(t211,zero).
+landmark(t211,inf).
 
-landmark(T212,minf).
-landmark(T212,zero).
-landmark(T212,inf).
+landmark(t212,minf).
+landmark(t212,zero).
+landmark(t212,inf).
 
-landmark(T220,minf).
-landmark(T220,zero).
-landmark(T220,inf).
+landmark(t220,minf).
+landmark(t220,zero).
+landmark(t220,inf).
 
-landmark(T221,minf).
-landmark(T221,zero).
-landmark(T221,inf).
+landmark(t221,minf).
+landmark(t221,zero).
+landmark(t221,inf).
 
-landmark(T222,minf).
-landmark(T222,zero).
-landmark(T222,inf).
+landmark(t222,minf).
+landmark(t222,zero).
+landmark(t222,inf).
 
 % Transform Matrix 3
 
-landmark(T300,minf).
-landmark(T300,zero).
-landmark(T300,inf).
+landmark(t300,minf).
+landmark(t300,zero).
+landmark(t300,inf).
 
-landmark(T301,minf).
-landmark(T301,zero).
-landmark(T301,inf).
+landmark(t301,minf).
+landmark(t301,zero).
+landmark(t301,inf).
 
-landmark(T302,minf).
-landmark(T302,zero).
-landmark(T302,inf).
+landmark(t302,minf).
+landmark(t302,zero).
+landmark(t302,inf).
 
-landmark(T310,minf).
-landmark(T310,zero).
-landmark(T310,inf).
+landmark(t310,minf).
+landmark(t310,zero).
+landmark(t310,inf).
 
-landmark(T311,minf).
-landmark(T311,zero).
-landmark(T311,inf).
+landmark(t311,minf).
+landmark(t311,zero).
+landmark(t311,inf).
 
-landmark(T312,minf).
-landmark(T312,zero).
-landmark(T312,inf).
+landmark(t312,minf).
+landmark(t312,zero).
+landmark(t312,inf).
 
-landmark(T320,minf).
-landmark(T320,zero).
-landmark(T320,inf).
+landmark(t320,minf).
+landmark(t320,zero).
+landmark(t320,inf).
 
-landmark(T321,minf).
-landmark(T321,zero).
-landmark(T321,inf).
+landmark(t321,minf).
+landmark(t321,zero).
+landmark(t321,inf).
 
-landmark(T322,minf).
-landmark(T322,zero).
-landmark(T322,inf).
+landmark(t322,minf).
+landmark(t322,zero).
+landmark(t322,inf).
 
 % Transform Matrix 4
 
-landmark(T400,minf).
-landmark(T400,zero).
-landmark(T400,inf).
+landmark(t400,minf).
+landmark(t400,zero).
+landmark(t400,inf).
 
-landmark(T401,minf).
-landmark(T401,zero).
-landmark(T401,inf).
+landmark(t401,minf).
+landmark(t401,zero).
+landmark(t401,inf).
 
-landmark(T402,minf).
-landmark(T402,zero).
-landmark(T402,inf).
+landmark(t402,minf).
+landmark(t402,zero).
+landmark(t402,inf).
 
-landmark(T410,minf).
-landmark(T410,zero).
-landmark(T410,inf).
+landmark(t410,minf).
+landmark(t410,zero).
+landmark(t410,inf).
 
-landmark(T411,minf).
-landmark(T411,zero).
-landmark(T411,inf).
+landmark(t411,minf).
+landmark(t411,zero).
+landmark(t411,inf).
 
-landmark(T412,minf).
-landmark(T412,zero).
-landmark(T412,inf).
+landmark(t412,minf).
+landmark(t412,zero).
+landmark(t412,inf).
 
-landmark(T420,minf).
-landmark(T420,zero).
-landmark(T420,inf).
+landmark(t420,minf).
+landmark(t420,zero).
+landmark(t420,inf).
 
-landmark(T421,minf).
-landmark(T421,zero).
-landmark(T421,inf).
+landmark(t421,minf).
+landmark(t421,zero).
+landmark(t421,inf).
 
-landmark(T422,minf).
-landmark(T422,zero).
-landmark(T422,inf).
+landmark(t422,minf).
+landmark(t422,zero).
+landmark(t422,inf).
 
 % Transform Matrix 5
 
-landmark(T500,minf).
-landmark(T500,zero).
-landmark(T500,inf).
+landmark(t500,minf).
+landmark(t500,zero).
+landmark(t500,inf).
 
-landmark(T501,minf).
-landmark(T501,zero).
-landmark(T501,inf).
+landmark(t501,minf).
+landmark(t501,zero).
+landmark(t501,inf).
 
-landmark(T502,minf).
-landmark(T502,zero).
-landmark(T502,inf).
+landmark(t502,minf).
+landmark(t502,zero).
+landmark(t502,inf).
 
-landmark(T510,minf).
-landmark(T510,zero).
-landmark(T510,inf).
+landmark(t510,minf).
+landmark(t510,zero).
+landmark(t510,inf).
 
-landmark(T511,minf).
-landmark(T511,zero).
-landmark(T511,inf).
+landmark(t511,minf).
+landmark(t511,zero).
+landmark(t511,inf).
 
-landmark(T512,minf).
-landmark(T512,zero).
-landmark(T512,inf).
+landmark(t512,minf).
+landmark(t512,zero).
+landmark(t512,inf).
 
-landmark(T520,minf).
-landmark(T520,zero).
-landmark(T520,inf).
+landmark(t520,minf).
+landmark(t520,zero).
+landmark(t520,inf).
 
-landmark(T521,minf).
-landmark(T521,zero).
-landmark(T521,inf).
+landmark(t521,minf).
+landmark(t521,zero).
+landmark(t521,inf).
 
-landmark(T522,minf).
-landmark(T522,zero).
-landmark(T522,inf).
+landmark(t522,minf).
+landmark(t522,zero).
+landmark(t522,inf).
 
 % 0-1 Matrix (compound 0)
 
-landmark(C000, minf).
-landmark(C000, zero).
-landmark(C000, inf).
-landmark(C001, minf).
-landmark(C001, zero).
-landmark(C001, inf).
-landmark(C002, minf).
-landmark(C002, zero).
-landmark(C002, inf).
-landmark(C010, minf).
-landmark(C010, zero).
-landmark(C010, inf).
-landmark(C011, minf).
-landmark(C011, zero).
-landmark(C011, inf).
-landmark(C012, minf).
-landmark(C012, zero).
-landmark(C012, inf).
-landmark(C020, minf).
-landmark(C020, zero).
-landmark(C020, inf).
-landmark(C021, minf).
-landmark(C021, zero).
-landmark(C021, inf).
-landmark(C022, minf).
-landmark(C022, zero).
-landmark(C022, inf).
+landmark(c000, minf).
+landmark(c000, zero).
+landmark(c000, inf).
+landmark(c001, minf).
+landmark(c001, zero).
+landmark(c001, inf).
+landmark(c002, minf).
+landmark(c002, zero).
+landmark(c002, inf).
+landmark(c010, minf).
+landmark(c010, zero).
+landmark(c010, inf).
+landmark(c011, minf).
+landmark(c011, zero).
+landmark(c011, inf).
+landmark(c012, minf).
+landmark(c012, zero).
+landmark(c012, inf).
+landmark(c020, minf).
+landmark(c020, zero).
+landmark(c020, inf).
+landmark(c021, minf).
+landmark(c021, zero).
+landmark(c021, inf).
+landmark(c022, minf).
+landmark(c022, zero).
+landmark(c022, inf).
 
 % Intermediate Variables Compound 0
 landmark(m000, minf).
@@ -1193,33 +1193,33 @@ landmark(s022, zero).
 landmark(s022, inf).
 
 % 0-1-2 Matrix (compound 1)
-landmark(C100, minf).
-landmark(C100, zero).
-landmark(C100, inf).
-landmark(C101, minf).
-landmark(C101, zero).
-landmark(C101, inf).
-landmark(C102, minf).
-landmark(C102, zero).
-landmark(C102, inf).
-landmark(C110, minf).
-landmark(C110, zero).
-landmark(C110, inf).
-landmark(C111, minf).
-landmark(C111, zero).
-landmark(C111, inf).
-landmark(C112, minf).
-landmark(C112, zero).
-landmark(C112, inf).
-landmark(C120, minf).
-landmark(C120, zero).
-landmark(C120, inf).
-landmark(C121, minf).
-landmark(C121, zero).
-landmark(C121, inf).
-landmark(C122, minf).
-landmark(C122, zero).
-landmark(C122, inf).
+landmark(c100, minf).
+landmark(c100, zero).
+landmark(c100, inf).
+landmark(c101, minf).
+landmark(c101, zero).
+landmark(c101, inf).
+landmark(c102, minf).
+landmark(c102, zero).
+landmark(c102, inf).
+landmark(c110, minf).
+landmark(c110, zero).
+landmark(c110, inf).
+landmark(c111, minf).
+landmark(c111, zero).
+landmark(c111, inf).
+landmark(c112, minf).
+landmark(c112, zero).
+landmark(c112, inf).
+landmark(c120, minf).
+landmark(c120, zero).
+landmark(c120, inf).
+landmark(c121, minf).
+landmark(c121, zero).
+landmark(c121, inf).
+landmark(c122, minf).
+landmark(c122, zero).
+landmark(c122, inf).
 
 % Intermediate Variables Compound 1
 landmark(m100, minf).
@@ -1338,33 +1338,33 @@ landmark(s122, inf).
 
 
 % 0-1-2-3 Matrix (compound 2)
-landmark(C200, minf).
-landmark(C200, zero).
-landmark(C200, inf).
-landmark(C201, minf).
-landmark(C201, zero).
-landmark(C201, inf).
-landmark(C202, minf).
-landmark(C202, zero).
-landmark(C202, inf).
-landmark(C210, minf).
-landmark(C210, zero).
-landmark(C210, inf).
-landmark(C211, minf).
-landmark(C211, zero).
-landmark(C211, inf).
-landmark(C212, minf).
-landmark(C212, zero).
-landmark(C212, inf).
-landmark(C220, minf).
-landmark(C220, zero).
-landmark(C220, inf).
-landmark(C221, minf).
-landmark(C221, zero).
-landmark(C221, inf).
-landmark(C222, minf).
-landmark(C222, zero).
-landmark(C222, inf).
+landmark(c200, minf).
+landmark(c200, zero).
+landmark(c200, inf).
+landmark(c201, minf).
+landmark(c201, zero).
+landmark(c201, inf).
+landmark(c202, minf).
+landmark(c202, zero).
+landmark(c202, inf).
+landmark(c210, minf).
+landmark(c210, zero).
+landmark(c210, inf).
+landmark(c211, minf).
+landmark(c211, zero).
+landmark(c211, inf).
+landmark(c212, minf).
+landmark(c212, zero).
+landmark(c212, inf).
+landmark(c220, minf).
+landmark(c220, zero).
+landmark(c220, inf).
+landmark(c221, minf).
+landmark(c221, zero).
+landmark(c221, inf).
+landmark(c222, minf).
+landmark(c222, zero).
+landmark(c222, inf).
 
 % Intermediate Variables Compound 2
 landmark(m200, minf).
@@ -1483,33 +1483,33 @@ landmark(s222, inf).
 
 
 % 0-1-2-3-4 Matrix (compound 3)
-landmark(C300, minf).
-landmark(C300, zero).
-landmark(C300, inf).
-landmark(C301, minf).
-landmark(C301, zero).
-landmark(C301, inf).
-landmark(C302, minf).
-landmark(C302, zero).
-landmark(C302, inf).
-landmark(C310, minf).
-landmark(C310, zero).
-landmark(C310, inf).
-landmark(C311, minf).
-landmark(C311, zero).
-landmark(C311, inf).
-landmark(C312, minf).
-landmark(C312, zero).
-landmark(C312, inf).
-landmark(C320, minf).
-landmark(C320, zero).
-landmark(C320, inf).
-landmark(C321, minf).
-landmark(C321, zero).
-landmark(C321, inf).
-landmark(C322, minf).
-landmark(C322, zero).
-landmark(C322, inf).
+landmark(c300, minf).
+landmark(c300, zero).
+landmark(c300, inf).
+landmark(c301, minf).
+landmark(c301, zero).
+landmark(c301, inf).
+landmark(c302, minf).
+landmark(c302, zero).
+landmark(c302, inf).
+landmark(c310, minf).
+landmark(c310, zero).
+landmark(c310, inf).
+landmark(c311, minf).
+landmark(c311, zero).
+landmark(c311, inf).
+landmark(c312, minf).
+landmark(c312, zero).
+landmark(c312, inf).
+landmark(c320, minf).
+landmark(c320, zero).
+landmark(c320, inf).
+landmark(c321, minf).
+landmark(c321, zero).
+landmark(c321, inf).
+landmark(c322, minf).
+landmark(c322, zero).
+landmark(c322, inf).
 
 % Intermediate Variables Compound 3
 landmark(m300, minf).
@@ -1627,33 +1627,33 @@ landmark(s322, zero).
 landmark(s322, inf).
 
 % 0-1-2-3-4-5 Matrix (compound 4)
-landmark(C400, minf).
-landmark(C400, zero).
-landmark(C400, inf).
-landmark(C401, minf).
-landmark(C401, zero).
-landmark(C401, inf).
-landmark(C402, minf).
-landmark(C402, zero).
-landmark(C402, inf).
-landmark(C410, minf).
-landmark(C410, zero).
-landmark(C410, inf).
-landmark(C411, minf).
-landmark(C411, zero).
-landmark(C411, inf).
-landmark(C412, minf).
-landmark(C412, zero).
-landmark(C412, inf).
-landmark(C420, minf).
-landmark(C420, zero).
-landmark(C420, inf).
-landmark(C421, minf).
-landmark(C421, zero).
-landmark(C421, inf).
-landmark(C422, minf).
-landmark(C422, zero).
-landmark(C422, inf).
+landmark(c400, minf).
+landmark(c400, zero).
+landmark(c400, inf).
+landmark(c401, minf).
+landmark(c401, zero).
+landmark(c401, inf).
+landmark(c402, minf).
+landmark(c402, zero).
+landmark(c402, inf).
+landmark(c410, minf).
+landmark(c410, zero).
+landmark(c410, inf).
+landmark(c411, minf).
+landmark(c411, zero).
+landmark(c411, inf).
+landmark(c412, minf).
+landmark(c412, zero).
+landmark(c412, inf).
+landmark(c420, minf).
+landmark(c420, zero).
+landmark(c420, inf).
+landmark(c421, minf).
+landmark(c421, zero).
+landmark(c421, inf).
+landmark(c422, minf).
+landmark(c422, zero).
+landmark(c422, inf).
 
 % Intermediate Variables Compound 4
 landmark(m400, minf).
@@ -2031,198 +2031,198 @@ adjacent_landmark(m_z_end2, zero, inf).
 
 % Transform Matrix 0
 
-adjacent_landmark(T000,minf,zero).
-adjacent_landmark(T000,zero,inf).
+adjacent_landmark(t000,minf,zero).
+adjacent_landmark(t000,zero,inf).
 
-adjacent_landmark(T001,minf,zero).
-adjacent_landmark(T001,zero,inf).
+adjacent_landmark(t001,minf,zero).
+adjacent_landmark(t001,zero,inf).
 
-adjacent_landmark(T002,minf,zero).
-adjacent_landmark(T002,zero,inf).
+adjacent_landmark(t002,minf,zero).
+adjacent_landmark(t002,zero,inf).
 
-adjacent_landmark(T010,minf,zero).
-adjacent_landmark(T010,zero,inf).
+adjacent_landmark(t010,minf,zero).
+adjacent_landmark(t010,zero,inf).
 
-adjacent_landmark(T011,minf,zero).
-adjacent_landmark(T011,zero,inf).
+adjacent_landmark(t011,minf,zero).
+adjacent_landmark(t011,zero,inf).
 
-adjacent_landmark(T012,minf,zero).
-adjacent_landmark(T012,zero,inf).
+adjacent_landmark(t012,minf,zero).
+adjacent_landmark(t012,zero,inf).
 
-adjacent_landmark(T020,minf,zero).
-adjacent_landmark(T020,zero,inf).
+adjacent_landmark(t020,minf,zero).
+adjacent_landmark(t020,zero,inf).
 
-adjacent_landmark(T021,minf,zero).
-adjacent_landmark(T021,zero,inf).
+adjacent_landmark(t021,minf,zero).
+adjacent_landmark(t021,zero,inf).
 
-adjacent_landmark(T022,minf,zero).
-adjacent_landmark(T022,zero,inf).
+adjacent_landmark(t022,minf,zero).
+adjacent_landmark(t022,zero,inf).
 
 % Transform Matrix 1
 
-adjacent_landmark(T100,minf,zero).
-adjacent_landmark(T100,zero,inf).
+adjacent_landmark(t100,minf,zero).
+adjacent_landmark(t100,zero,inf).
 
-adjacent_landmark(T101,minf,zero).
-adjacent_landmark(T101,zero,inf).
+adjacent_landmark(t101,minf,zero).
+adjacent_landmark(t101,zero,inf).
 
-adjacent_landmark(T102,minf,zero).
-adjacent_landmark(T102,zero,inf).
+adjacent_landmark(t102,minf,zero).
+adjacent_landmark(t102,zero,inf).
 
-adjacent_landmark(T110,minf,zero).
-adjacent_landmark(T110,zero,inf).
+adjacent_landmark(t110,minf,zero).
+adjacent_landmark(t110,zero,inf).
 
-adjacent_landmark(T111,minf,zero).
-adjacent_landmark(T111,zero,inf).
+adjacent_landmark(t111,minf,zero).
+adjacent_landmark(t111,zero,inf).
 
-adjacent_landmark(T112,minf,zero).
-adjacent_landmark(T112,zero,inf).
+adjacent_landmark(t112,minf,zero).
+adjacent_landmark(t112,zero,inf).
 
-adjacent_landmark(T120,minf,zero).
-adjacent_landmark(T120,zero,inf).
+adjacent_landmark(t120,minf,zero).
+adjacent_landmark(t120,zero,inf).
 
-adjacent_landmark(T121,minf,zero).
-adjacent_landmark(T121,zero,inf).
+adjacent_landmark(t121,minf,zero).
+adjacent_landmark(t121,zero,inf).
 
-adjacent_landmark(T122,minf,zero).
-adjacent_landmark(T122,zero,inf).
+adjacent_landmark(t122,minf,zero).
+adjacent_landmark(t122,zero,inf).
 
 % Transform Matrix 2
 
-adjacent_landmark(T200,minf,zero).
-adjacent_landmark(T200,zero,inf).
+adjacent_landmark(t200,minf,zero).
+adjacent_landmark(t200,zero,inf).
 
-adjacent_landmark(T201,minf,zero).
-adjacent_landmark(T201,zero,inf).
+adjacent_landmark(t201,minf,zero).
+adjacent_landmark(t201,zero,inf).
 
-adjacent_landmark(T202,minf,zero).
-adjacent_landmark(T202,zero,inf).
+adjacent_landmark(t202,minf,zero).
+adjacent_landmark(t202,zero,inf).
 
-adjacent_landmark(T210,minf,zero).
-adjacent_landmark(T210,zero,inf).
+adjacent_landmark(t210,minf,zero).
+adjacent_landmark(t210,zero,inf).
 
-adjacent_landmark(T211,minf,zero).
-adjacent_landmark(T211,zero,inf).
+adjacent_landmark(t211,minf,zero).
+adjacent_landmark(t211,zero,inf).
 
-adjacent_landmark(T212,minf,zero).
-adjacent_landmark(T212,zero,inf).
+adjacent_landmark(t212,minf,zero).
+adjacent_landmark(t212,zero,inf).
 
-adjacent_landmark(T220,minf,zero).
-adjacent_landmark(T220,zero,inf).
+adjacent_landmark(t220,minf,zero).
+adjacent_landmark(t220,zero,inf).
 
-adjacent_landmark(T221,minf,zero).
-adjacent_landmark(T221,zero,inf).
+adjacent_landmark(t221,minf,zero).
+adjacent_landmark(t221,zero,inf).
 
-adjacent_landmark(T222,minf,zero).
-adjacent_landmark(T222,zero,inf).
+adjacent_landmark(t222,minf,zero).
+adjacent_landmark(t222,zero,inf).
 
 % Transform Matrix 3
 
-adjacent_landmark(T300,minf,zero).
-adjacent_landmark(T300,zero,inf).
+adjacent_landmark(t300,minf,zero).
+adjacent_landmark(t300,zero,inf).
 
-adjacent_landmark(T301,minf,zero).
-adjacent_landmark(T301,zero,inf).
+adjacent_landmark(t301,minf,zero).
+adjacent_landmark(t301,zero,inf).
 
-adjacent_landmark(T302,minf,zero).
-adjacent_landmark(T302,zero,inf).
+adjacent_landmark(t302,minf,zero).
+adjacent_landmark(t302,zero,inf).
 
-adjacent_landmark(T310,minf,zero).
-adjacent_landmark(T310,zero,inf).
+adjacent_landmark(t310,minf,zero).
+adjacent_landmark(t310,zero,inf).
 
-adjacent_landmark(T311,minf,zero).
-adjacent_landmark(T311,zero,inf).
+adjacent_landmark(t311,minf,zero).
+adjacent_landmark(t311,zero,inf).
 
-adjacent_landmark(T312,minf,zero).
-adjacent_landmark(T312,zero,inf).
+adjacent_landmark(t312,minf,zero).
+adjacent_landmark(t312,zero,inf).
 
-adjacent_landmark(T320,minf,zero).
-adjacent_landmark(T320,zero,inf).
+adjacent_landmark(t320,minf,zero).
+adjacent_landmark(t320,zero,inf).
 
-adjacent_landmark(T321,minf,zero).
-adjacent_landmark(T321,zero,inf).
+adjacent_landmark(t321,minf,zero).
+adjacent_landmark(t321,zero,inf).
 
-adjacent_landmark(T322,minf,zero).
-adjacent_landmark(T322,zero,inf).
+adjacent_landmark(t322,minf,zero).
+adjacent_landmark(t322,zero,inf).
 
 % Transform Matrix 4
 
-adjacent_landmark(T400,minf,zero).
-adjacent_landmark(T400,zero,inf).
+adjacent_landmark(t400,minf,zero).
+adjacent_landmark(t400,zero,inf).
 
-adjacent_landmark(T401,minf,zero).
-adjacent_landmark(T401,zero,inf).
+adjacent_landmark(t401,minf,zero).
+adjacent_landmark(t401,zero,inf).
 
-adjacent_landmark(T402,minf,zero).
-adjacent_landmark(T402,zero,inf).
+adjacent_landmark(t402,minf,zero).
+adjacent_landmark(t402,zero,inf).
 
-adjacent_landmark(T410,minf,zero).
-adjacent_landmark(T410,zero,inf).
+adjacent_landmark(t410,minf,zero).
+adjacent_landmark(t410,zero,inf).
 
-adjacent_landmark(T411,minf,zero).
-adjacent_landmark(T411,zero,inf).
+adjacent_landmark(t411,minf,zero).
+adjacent_landmark(t411,zero,inf).
 
-adjacent_landmark(T412,minf,zero).
-adjacent_landmark(T412,zero,inf).
+adjacent_landmark(t412,minf,zero).
+adjacent_landmark(t412,zero,inf).
 
-adjacent_landmark(T420,minf,zero).
-adjacent_landmark(T420,zero,inf).
+adjacent_landmark(t420,minf,zero).
+adjacent_landmark(t420,zero,inf).
 
-adjacent_landmark(T421,minf,zero).
-adjacent_landmark(T421,zero,inf).
+adjacent_landmark(t421,minf,zero).
+adjacent_landmark(t421,zero,inf).
 
-adjacent_landmark(T422,minf,zero).
-adjacent_landmark(T422,zero,inf).
+adjacent_landmark(t422,minf,zero).
+adjacent_landmark(t422,zero,inf).
 
 % Transform Matrix 5
 
-adjacent_landmark(T500,minf,zero).
-adjacent_landmark(T500,zero,inf).
+adjacent_landmark(t500,minf,zero).
+adjacent_landmark(t500,zero,inf).
 
-adjacent_landmark(T501,minf,zero).
-adjacent_landmark(T501,zero,inf).
+adjacent_landmark(t501,minf,zero).
+adjacent_landmark(t501,zero,inf).
 
-adjacent_landmark(T502,minf,zero).
-adjacent_landmark(T502,zero,inf).
+adjacent_landmark(t502,minf,zero).
+adjacent_landmark(t502,zero,inf).
 
-adjacent_landmark(T510,minf,zero).
-adjacent_landmark(T510,zero,inf).
+adjacent_landmark(t510,minf,zero).
+adjacent_landmark(t510,zero,inf).
 
-adjacent_landmark(T511,minf,zero).
-adjacent_landmark(T511,zero,inf).
+adjacent_landmark(t511,minf,zero).
+adjacent_landmark(t511,zero,inf).
 
-adjacent_landmark(T512,minf,zero).
-adjacent_landmark(T512,zero,inf).
+adjacent_landmark(t512,minf,zero).
+adjacent_landmark(t512,zero,inf).
 
-adjacent_landmark(T520,minf,zero).
-adjacent_landmark(T520,zero,inf).
+adjacent_landmark(t520,minf,zero).
+adjacent_landmark(t520,zero,inf).
 
-adjacent_landmark(T521,minf,zero).
-adjacent_landmark(T521,zero,inf).
+adjacent_landmark(t521,minf,zero).
+adjacent_landmark(t521,zero,inf).
 
-adjacent_landmark(T522,minf,zero).
-adjacent_landmark(T522,zero,inf).
+adjacent_landmark(t522,minf,zero).
+adjacent_landmark(t522,zero,inf).
 
 % 0-1 Matrix (compound 0)
 
-adjacent_landmark(C000, minf, zero).
-adjacent_landmark(C000, zero, inf).
-adjacent_landmark(C001, minf, zero).
-adjacent_landmark(C001, zero, inf).
-adjacent_landmark(C002, minf, zero).
-adjacent_landmark(C002, zero, inf).
-adjacent_landmark(C010, minf, zero).
-adjacent_landmark(C010, zero, inf).
-adjacent_landmark(C011, minf, zero).
-adjacent_landmark(C011, zero, inf).
-adjacent_landmark(C012, minf, zero).
-adjacent_landmark(C012, zero, inf).
-adjacent_landmark(C020, minf, zero).
-adjacent_landmark(C020, zero, inf).
-adjacent_landmark(C021, minf, zero).
-adjacent_landmark(C021, zero, inf).
-adjacent_landmark(C022, minf, zero).
-adjacent_landmark(C022, zero, inf).
+adjacent_landmark(c000, minf, zero).
+adjacent_landmark(c000, zero, inf).
+adjacent_landmark(c001, minf, zero).
+adjacent_landmark(c001, zero, inf).
+adjacent_landmark(c002, minf, zero).
+adjacent_landmark(c002, zero, inf).
+adjacent_landmark(c010, minf, zero).
+adjacent_landmark(c010, zero, inf).
+adjacent_landmark(c011, minf, zero).
+adjacent_landmark(c011, zero, inf).
+adjacent_landmark(c012, minf, zero).
+adjacent_landmark(c012, zero, inf).
+adjacent_landmark(c020, minf, zero).
+adjacent_landmark(c020, zero, inf).
+adjacent_landmark(c021, minf, zero).
+adjacent_landmark(c021, zero, inf).
+adjacent_landmark(c022, minf, zero).
+adjacent_landmark(c022, zero, inf).
 
 % Intermediate Variables Compound 0
 adjacent_landmark(m000, minf, zero).
@@ -2304,24 +2304,24 @@ adjacent_landmark(s022, minf, zero).
 adjacent_landmark(s022, zero, inf).
 
 % 0-1-2 Matrix (compound 1)
-adjacent_landmark(C100, minf, zero).
-adjacent_landmark(C100, zero, inf).
-adjacent_landmark(C101, minf, zero).
-adjacent_landmark(C101, zero, inf).
-adjacent_landmark(C102, minf, zero).
-adjacent_landmark(C102, zero, inf).
-adjacent_landmark(C110, minf, zero).
-adjacent_landmark(C110, zero, inf).
-adjacent_landmark(C111, minf, zero).
-adjacent_landmark(C111, zero, inf).
-adjacent_landmark(C112, minf, zero).
-adjacent_landmark(C112, zero, inf).
-adjacent_landmark(C120, minf, zero).
-adjacent_landmark(C120, zero, inf).
-adjacent_landmark(C121, minf, zero).
-adjacent_landmark(C121, zero, inf).
-adjacent_landmark(C122, minf, zero).
-adjacent_landmark(C122, zero, inf).
+adjacent_landmark(c100, minf, zero).
+adjacent_landmark(c100, zero, inf).
+adjacent_landmark(c101, minf, zero).
+adjacent_landmark(c101, zero, inf).
+adjacent_landmark(c102, minf, zero).
+adjacent_landmark(c102, zero, inf).
+adjacent_landmark(c110, minf, zero).
+adjacent_landmark(c110, zero, inf).
+adjacent_landmark(c111, minf, zero).
+adjacent_landmark(c111, zero, inf).
+adjacent_landmark(c112, minf, zero).
+adjacent_landmark(c112, zero, inf).
+adjacent_landmark(c120, minf, zero).
+adjacent_landmark(c120, zero, inf).
+adjacent_landmark(c121, minf, zero).
+adjacent_landmark(c121, zero, inf).
+adjacent_landmark(c122, minf, zero).
+adjacent_landmark(c122, zero, inf).
 
 % Intermediate Variables Compound 1
 adjacent_landmark(m100, minf, zero).
@@ -2404,24 +2404,24 @@ adjacent_landmark(s122, zero, inf).
 
 
 % 0-1-2-3 Matrix (compound 2)
-adjacent_landmark(C200, minf, zero).
-adjacent_landmark(C200, zero, inf).
-adjacent_landmark(C201, minf, zero).
-adjacent_landmark(C201, zero, inf).
-adjacent_landmark(C202, minf, zero).
-adjacent_landmark(C202, zero, inf).
-adjacent_landmark(C210, minf, zero).
-adjacent_landmark(C210, zero, inf).
-adjacent_landmark(C211, minf, zero).
-adjacent_landmark(C211, zero, inf).
-adjacent_landmark(C212, minf, zero).
-adjacent_landmark(C212, zero, inf).
-adjacent_landmark(C220, minf, zero).
-adjacent_landmark(C220, zero, inf).
-adjacent_landmark(C221, minf, zero).
-adjacent_landmark(C221, zero, inf).
-adjacent_landmark(C222, minf, zero).
-adjacent_landmark(C222, zero, inf).
+adjacent_landmark(c200, minf, zero).
+adjacent_landmark(c200, zero, inf).
+adjacent_landmark(c201, minf, zero).
+adjacent_landmark(c201, zero, inf).
+adjacent_landmark(c202, minf, zero).
+adjacent_landmark(c202, zero, inf).
+adjacent_landmark(c210, minf, zero).
+adjacent_landmark(c210, zero, inf).
+adjacent_landmark(c211, minf, zero).
+adjacent_landmark(c211, zero, inf).
+adjacent_landmark(c212, minf, zero).
+adjacent_landmark(c212, zero, inf).
+adjacent_landmark(c220, minf, zero).
+adjacent_landmark(c220, zero, inf).
+adjacent_landmark(c221, minf, zero).
+adjacent_landmark(c221, zero, inf).
+adjacent_landmark(c222, minf, zero).
+adjacent_landmark(c222, zero, inf).
 
 % Intermediate Variables Compound 2
 adjacent_landmark(m200, minf, zero).
@@ -2504,24 +2504,24 @@ adjacent_landmark(s222, zero, inf).
 
 
 % 0-1-2-3-4 Matrix (compound 3)
-adjacent_landmark(C300, minf, zero).
-adjacent_landmark(C300, zero, inf).
-adjacent_landmark(C301, minf, zero).
-adjacent_landmark(C301, zero, inf).
-adjacent_landmark(C302, minf, zero).
-adjacent_landmark(C302, zero, inf).
-adjacent_landmark(C310, minf, zero).
-adjacent_landmark(C310, zero, inf).
-adjacent_landmark(C311, minf, zero).
-adjacent_landmark(C311, zero, inf).
-adjacent_landmark(C312, minf, zero).
-adjacent_landmark(C312, zero, inf).
-adjacent_landmark(C320, minf, zero).
-adjacent_landmark(C320, zero, inf).
-adjacent_landmark(C321, minf, zero).
-adjacent_landmark(C321, zero, inf).
-adjacent_landmark(C322, minf, zero).
-adjacent_landmark(C322, zero, inf).
+adjacent_landmark(c300, minf, zero).
+adjacent_landmark(c300, zero, inf).
+adjacent_landmark(c301, minf, zero).
+adjacent_landmark(c301, zero, inf).
+adjacent_landmark(c302, minf, zero).
+adjacent_landmark(c302, zero, inf).
+adjacent_landmark(c310, minf, zero).
+adjacent_landmark(c310, zero, inf).
+adjacent_landmark(c311, minf, zero).
+adjacent_landmark(c311, zero, inf).
+adjacent_landmark(c312, minf, zero).
+adjacent_landmark(c312, zero, inf).
+adjacent_landmark(c320, minf, zero).
+adjacent_landmark(c320, zero, inf).
+adjacent_landmark(c321, minf, zero).
+adjacent_landmark(c321, zero, inf).
+adjacent_landmark(c322, minf, zero).
+adjacent_landmark(c322, zero, inf).
 
 % Intermediate Variables Compound 3
 adjacent_landmark(m300, minf, zero).
@@ -2603,24 +2603,24 @@ adjacent_landmark(s322, minf, zero).
 adjacent_landmark(s322, zero, inf).
 
 % 0-1-2-3-4-5 Matrix (compound 4)
-adjacent_landmark(C400, minf, zero).
-adjacent_landmark(C400, zero, inf).
-adjacent_landmark(C401, minf, zero).
-adjacent_landmark(C401, zero, inf).
-adjacent_landmark(C402, minf, zero).
-adjacent_landmark(C402, zero, inf).
-adjacent_landmark(C410, minf, zero).
-adjacent_landmark(C410, zero, inf).
-adjacent_landmark(C411, minf, zero).
-adjacent_landmark(C411, zero, inf).
-adjacent_landmark(C412, minf, zero).
-adjacent_landmark(C412, zero, inf).
-adjacent_landmark(C420, minf, zero).
-adjacent_landmark(C420, zero, inf).
-adjacent_landmark(C421, minf, zero).
-adjacent_landmark(C421, zero, inf).
-adjacent_landmark(C422, minf, zero).
-adjacent_landmark(C422, zero, inf).
+adjacent_landmark(c400, minf, zero).
+adjacent_landmark(c400, zero, inf).
+adjacent_landmark(c401, minf, zero).
+adjacent_landmark(c401, zero, inf).
+adjacent_landmark(c402, minf, zero).
+adjacent_landmark(c402, zero, inf).
+adjacent_landmark(c410, minf, zero).
+adjacent_landmark(c410, zero, inf).
+adjacent_landmark(c411, minf, zero).
+adjacent_landmark(c411, zero, inf).
+adjacent_landmark(c412, minf, zero).
+adjacent_landmark(c412, zero, inf).
+adjacent_landmark(c420, minf, zero).
+adjacent_landmark(c420, zero, inf).
+adjacent_landmark(c421, minf, zero).
+adjacent_landmark(c421, zero, inf).
+adjacent_landmark(c422, minf, zero).
+adjacent_landmark(c422, zero, inf).
 
 % Intermediate Variables Compound 4
 adjacent_landmark(m400, minf, zero).
@@ -2718,320 +2718,320 @@ rule(c_base_z, base, const(z0, land(zero))).
 
 % Transform Matrices
 
-rule(t_000, transform, const(T000, interval(zero,inf))).
-rule(t_011, transform, const(T011, interval(zero,inf))).
-rule(t_022, transform, const(T022, interval(zero,inf))).
-rule(t_001, transform, mult(theta0, z_hat0, T001)).
-rule(t_002, transform, mult(theta0, y_hat0, T002)).
-rule(t_010, transform, mult(theta0, z_hat0, T010)).
-rule(t_012, transform, mult(theta0, x_hat0, T012)).
-rule(t_020, transform, mult(theta0, y_hat0, T020)).
-rule(t_021, transform, mult(theta0, x_hat0, T021)).
+rule(t_000, transform, const(t000, interval(zero,inf))).
+rule(t_011, transform, const(t011, interval(zero,inf))).
+rule(t_022, transform, const(t022, interval(zero,inf))).
+rule(t_001, transform, mult(theta0, z_hat0, t001)).
+rule(t_002, transform, mult(theta0, y_hat0, t002)).
+rule(t_010, transform, mult(theta0, z_hat0, t010)).
+rule(t_012, transform, mult(theta0, x_hat0, t012)).
+rule(t_020, transform, mult(theta0, y_hat0, t020)).
+rule(t_021, transform, mult(theta0, x_hat0, t021)).
 
-rule(t_100, transform, const(T100, interval(zero,inf))).
-rule(t_111, transform, const(T111, interval(zero,inf))).
-rule(t_122, transform, const(T122, interval(zero,inf))).
-rule(t_101, transform, mult(theta1, z_hat1, T101)).
-rule(t_102, transform, mult(theta1, y_hat1, T102)).
-rule(t_110, transform, mult(theta1, z_hat1, T110)).
-rule(t_112, transform, mult(theta1, x_hat1, T112)).
-rule(t_120, transform, mult(theta1, y_hat1, T120)).
-rule(t_121, transform, mult(theta1, x_hat1, T121)).
+rule(t_100, transform, const(t100, interval(zero,inf))).
+rule(t_111, transform, const(t111, interval(zero,inf))).
+rule(t_122, transform, const(t122, interval(zero,inf))).
+rule(t_101, transform, mult(theta1, z_hat1, t101)).
+rule(t_102, transform, mult(theta1, y_hat1, t102)).
+rule(t_110, transform, mult(theta1, z_hat1, t110)).
+rule(t_112, transform, mult(theta1, x_hat1, t112)).
+rule(t_120, transform, mult(theta1, y_hat1, t120)).
+rule(t_121, transform, mult(theta1, x_hat1, t121)).
 
-rule(t_200, transform, const(T200, interval(zero,inf))).
-rule(t_211, transform, const(T211, interval(zero,inf))).
-rule(t_222, transform, const(T222, interval(zero,inf))).
-rule(t_201, transform, mult(theta2, z_hat2, T201)).
-rule(t_202, transform, mult(theta2, y_hat2, T202)).
-rule(t_210, transform, mult(theta2, z_hat2, T210)).
-rule(t_212, transform, mult(theta2, x_hat2, T212)).
-rule(t_220, transform, mult(theta2, y_hat2, T220)).
-rule(t_221, transform, mult(theta2, x_hat2, T221)).
+rule(t_200, transform, const(t200, interval(zero,inf))).
+rule(t_211, transform, const(t211, interval(zero,inf))).
+rule(t_222, transform, const(t222, interval(zero,inf))).
+rule(t_201, transform, mult(theta2, z_hat2, t201)).
+rule(t_202, transform, mult(theta2, y_hat2, t202)).
+rule(t_210, transform, mult(theta2, z_hat2, t210)).
+rule(t_212, transform, mult(theta2, x_hat2, t212)).
+rule(t_220, transform, mult(theta2, y_hat2, t220)).
+rule(t_221, transform, mult(theta2, x_hat2, t221)).
 
-rule(t_300, transform, const(T300, interval(zero,inf))).
-rule(t_311, transform, const(T311, interval(zero,inf))).
-rule(t_322, transform, const(T322, interval(zero,inf))).
-rule(t_301, transform, mult(theta3, z_hat3, T301)).
-rule(t_302, transform, mult(theta3, y_hat3, T302)).
-rule(t_310, transform, mult(theta3, z_hat3, T310)).
-rule(t_312, transform, mult(theta3, x_hat3, T312)).
-rule(t_320, transform, mult(theta3, y_hat3, T320)).
-rule(t_321, transform, mult(theta3, x_hat3, T321)).
+rule(t_300, transform, const(t300, interval(zero,inf))).
+rule(t_311, transform, const(t311, interval(zero,inf))).
+rule(t_322, transform, const(t322, interval(zero,inf))).
+rule(t_301, transform, mult(theta3, z_hat3, t301)).
+rule(t_302, transform, mult(theta3, y_hat3, t302)).
+rule(t_310, transform, mult(theta3, z_hat3, t310)).
+rule(t_312, transform, mult(theta3, x_hat3, t312)).
+rule(t_320, transform, mult(theta3, y_hat3, t320)).
+rule(t_321, transform, mult(theta3, x_hat3, t321)).
 
-rule(t_400, transform, const(T400, interval(zero,inf))).
-rule(t_411, transform, const(T411, interval(zero,inf))).
-rule(t_422, transform, const(T422, interval(zero,inf))).
-rule(t_401, transform, mult(theta4, z_hat4, T401)).
-rule(t_402, transform, mult(theta4, y_hat4, T402)).
-rule(t_410, transform, mult(theta4, z_hat4, T410)).
-rule(t_412, transform, mult(theta4, x_hat4, T412)).
-rule(t_420, transform, mult(theta4, y_hat4, T420)).
-rule(t_421, transform, mult(theta4, x_hat4, T421)).
+rule(t_400, transform, const(t400, interval(zero,inf))).
+rule(t_411, transform, const(t411, interval(zero,inf))).
+rule(t_422, transform, const(t422, interval(zero,inf))).
+rule(t_401, transform, mult(theta4, z_hat4, t401)).
+rule(t_402, transform, mult(theta4, y_hat4, t402)).
+rule(t_410, transform, mult(theta4, z_hat4, t410)).
+rule(t_412, transform, mult(theta4, x_hat4, t412)).
+rule(t_420, transform, mult(theta4, y_hat4, t420)).
+rule(t_421, transform, mult(theta4, x_hat4, t421)).
 
-rule(t_500, transform, const(T500, interval(zero,inf))).
-rule(t_511, transform, const(T511, interval(zero,inf))).
-rule(t_522, transform, const(T522, interval(zero,inf))).
-rule(t_501, transform, mult(theta5, z_hat5, T501)).
-rule(t_502, transform, mult(theta5, y_hat5, T502)).
-rule(t_510, transform, mult(theta5, z_hat5, T510)).
-rule(t_512, transform, mult(theta5, x_hat5, T512)).
-rule(t_520, transform, mult(theta5, y_hat5, T520)).
-rule(t_521, transform, mult(theta5, x_hat5, T521)).
+rule(t_500, transform, const(t500, interval(zero,inf))).
+rule(t_511, transform, const(t511, interval(zero,inf))).
+rule(t_522, transform, const(t522, interval(zero,inf))).
+rule(t_501, transform, mult(theta5, z_hat5, t501)).
+rule(t_502, transform, mult(theta5, y_hat5, t502)).
+rule(t_510, transform, mult(theta5, z_hat5, t510)).
+rule(t_512, transform, mult(theta5, x_hat5, t512)).
+rule(t_520, transform, mult(theta5, y_hat5, t520)).
+rule(t_521, transform, mult(theta5, x_hat5, t521)).
 
 % Intermediate Representations
 
-rule(i_m000, intermediate, mult(T000, T100, m000)).
-rule(i_m001, intermediate, mult(T000, T101, m001)).
-rule(i_m002, intermediate, mult(T000, T102, m002)).
-rule(i_m013, intermediate, mult(T001, T110, m013)).
-rule(i_m014, intermediate, mult(T001, T111, m014)).
-rule(i_m015, intermediate, mult(T001, T112, m015)).
-rule(i_m026, intermediate, mult(T002, T120, m026)).
-rule(i_m027, intermediate, mult(T002, T121, m027)).
-rule(i_m028, intermediate, mult(T002, T122, m028)).
-rule(i_m030, intermediate, mult(T010, T100, m030)).
-rule(i_m031, intermediate, mult(T010, T101, m031)).
-rule(i_m032, intermediate, mult(T010, T102, m032)).
-rule(i_m043, intermediate, mult(T011, T110, m043)).
-rule(i_m044, intermediate, mult(T011, T111, m044)).
-rule(i_m045, intermediate, mult(T011, T112, m045)).
-rule(i_m056, intermediate, mult(T012, T120, m056)).
-rule(i_m057, intermediate, mult(T012, T121, m057)).
-rule(i_m058, intermediate, mult(T012, T122, m058)).
-rule(i_m060, intermediate, mult(T020, T100, m060)).
-rule(i_m061, intermediate, mult(T020, T101, m061)).
-rule(i_m062, intermediate, mult(T020, T102, m062)).
-rule(i_m073, intermediate, mult(T021, T110, m073)).
-rule(i_m074, intermediate, mult(T021, T111, m074)).
-rule(i_m075, intermediate, mult(T021, T112, m075)).
-rule(i_m086, intermediate, mult(T022, T120, m086)).
-rule(i_m087, intermediate, mult(T022, T121, m087)).
-rule(i_m088, intermediate, mult(T022, T122, m088)).
+rule(i_m000, intermediate, mult(t000, t100, m000)).
+rule(i_m001, intermediate, mult(t000, t101, m001)).
+rule(i_m002, intermediate, mult(t000, t102, m002)).
+rule(i_m013, intermediate, mult(t001, t110, m013)).
+rule(i_m014, intermediate, mult(t001, t111, m014)).
+rule(i_m015, intermediate, mult(t001, t112, m015)).
+rule(i_m026, intermediate, mult(t002, t120, m026)).
+rule(i_m027, intermediate, mult(t002, t121, m027)).
+rule(i_m028, intermediate, mult(t002, t122, m028)).
+rule(i_m030, intermediate, mult(t010, t100, m030)).
+rule(i_m031, intermediate, mult(t010, t101, m031)).
+rule(i_m032, intermediate, mult(t010, t102, m032)).
+rule(i_m043, intermediate, mult(t011, t110, m043)).
+rule(i_m044, intermediate, mult(t011, t111, m044)).
+rule(i_m045, intermediate, mult(t011, t112, m045)).
+rule(i_m056, intermediate, mult(t012, t120, m056)).
+rule(i_m057, intermediate, mult(t012, t121, m057)).
+rule(i_m058, intermediate, mult(t012, t122, m058)).
+rule(i_m060, intermediate, mult(t020, t100, m060)).
+rule(i_m061, intermediate, mult(t020, t101, m061)).
+rule(i_m062, intermediate, mult(t020, t102, m062)).
+rule(i_m073, intermediate, mult(t021, t110, m073)).
+rule(i_m074, intermediate, mult(t021, t111, m074)).
+rule(i_m075, intermediate, mult(t021, t112, m075)).
+rule(i_m086, intermediate, mult(t022, t120, m086)).
+rule(i_m087, intermediate, mult(t022, t121, m087)).
+rule(i_m088, intermediate, mult(t022, t122, m088)).
 
 rule(i_s000, intermediate, sum(m013, s000, m000)).
-rule(c_c000, compound, sum(m026, C000, s000)).
+rule(c_c000, compound, sum(m026, c000, s000)).
 rule(i_s001, intermediate, sum(m014, s001, m027)).
-rule(c_c001, compound, sum(m001, C001, s001)).
+rule(c_c001, compound, sum(m001, c001, s001)).
 rule(i_s002, intermediate, sum(m002, m015, s002)).
-rule(c_c002, compound, sum(s002, m028, C002)).
+rule(c_c002, compound, sum(s002, m028, c002)).
 rule(i_s010, intermediate, sum(m030, m043, s010)).
-rule(c_c010, compound, sum(s010, m056, C010)).
+rule(c_c010, compound, sum(s010, m056, c010)).
 rule(i_s011, intermediate, sum(m031, s011, m044)).
-rule(c_c011, compound, sum(C011, m057, s011)).
+rule(c_c011, compound, sum(c011, m057, s011)).
 rule(i_s012, intermediate, sum(m045, s012, m032)).
-rule(c_c012, compound, sum(m058, C012, s012)).
+rule(c_c012, compound, sum(m058, c012, s012)).
 rule(i_s020, intermediate, sum(m060, s020, m073)).
-rule(c_c020, compound, sum(m086, C020, s020)).
+rule(c_c020, compound, sum(m086, c020, s020)).
 rule(i_s021, intermediate, sum(m061, m074, s021)).
-rule(c_c021, compound, sum(s021, m087, C021)).
+rule(c_c021, compound, sum(s021, m087, c021)).
 rule(i_s022, intermediate, sum(m075, s022, m088)).
-rule(c_c022, compound, sum(m062, C022, s022)).
+rule(c_c022, compound, sum(m062, c022, s022)).
 
-rule(i_m100, intermediate, mult(C000, T200, m100)).
-rule(i_m101, intermediate, mult(C000, T201, m101)).
-rule(i_m102, intermediate, mult(C000, T202, m102)).
-rule(i_m113, intermediate, mult(C001, T210, m113)).
-rule(i_m114, intermediate, mult(C001, T211, m114)).
-rule(i_m115, intermediate, mult(C001, T212, m115)).
-rule(i_m126, intermediate, mult(C002, T220, m126)).
-rule(i_m127, intermediate, mult(C002, T221, m127)).
-rule(i_m128, intermediate, mult(C002, T222, m128)).
-rule(i_m130, intermediate, mult(C010, T200, m130)).
-rule(i_m131, intermediate, mult(C010, T201, m131)).
-rule(i_m132, intermediate, mult(C010, T202, m132)).
-rule(i_m143, intermediate, mult(C011, T210, m143)).
-rule(i_m144, intermediate, mult(C011, T211, m144)).
-rule(i_m145, intermediate, mult(C011, T212, m145)).
-rule(i_m156, intermediate, mult(C012, T220, m156)).
-rule(i_m157, intermediate, mult(C012, T221, m157)).
-rule(i_m158, intermediate, mult(C012, T222, m158)).
-rule(i_m160, intermediate, mult(C020, T200, m160)).
-rule(i_m161, intermediate, mult(C020, T201, m161)).
-rule(i_m162, intermediate, mult(C020, T202, m162)).
-rule(i_m173, intermediate, mult(C021, T210, m173)).
-rule(i_m174, intermediate, mult(C021, T211, m174)).
-rule(i_m175, intermediate, mult(C021, T212, m175)).
-rule(i_m186, intermediate, mult(C022, T220, m186)).
-rule(i_m187, intermediate, mult(C022, T221, m187)).
-rule(i_m188, intermediate, mult(C022, T222, m188)).
+rule(i_m100, intermediate, mult(c000, t200, m100)).
+rule(i_m101, intermediate, mult(c000, t201, m101)).
+rule(i_m102, intermediate, mult(c000, t202, m102)).
+rule(i_m113, intermediate, mult(c001, t210, m113)).
+rule(i_m114, intermediate, mult(c001, t211, m114)).
+rule(i_m115, intermediate, mult(c001, t212, m115)).
+rule(i_m126, intermediate, mult(c002, t220, m126)).
+rule(i_m127, intermediate, mult(c002, t221, m127)).
+rule(i_m128, intermediate, mult(c002, t222, m128)).
+rule(i_m130, intermediate, mult(c010, t200, m130)).
+rule(i_m131, intermediate, mult(c010, t201, m131)).
+rule(i_m132, intermediate, mult(c010, t202, m132)).
+rule(i_m143, intermediate, mult(c011, t210, m143)).
+rule(i_m144, intermediate, mult(c011, t211, m144)).
+rule(i_m145, intermediate, mult(c011, t212, m145)).
+rule(i_m156, intermediate, mult(c012, t220, m156)).
+rule(i_m157, intermediate, mult(c012, t221, m157)).
+rule(i_m158, intermediate, mult(c012, t222, m158)).
+rule(i_m160, intermediate, mult(c020, t200, m160)).
+rule(i_m161, intermediate, mult(c020, t201, m161)).
+rule(i_m162, intermediate, mult(c020, t202, m162)).
+rule(i_m173, intermediate, mult(c021, t210, m173)).
+rule(i_m174, intermediate, mult(c021, t211, m174)).
+rule(i_m175, intermediate, mult(c021, t212, m175)).
+rule(i_m186, intermediate, mult(c022, t220, m186)).
+rule(i_m187, intermediate, mult(c022, t221, m187)).
+rule(i_m188, intermediate, mult(c022, t222, m188)).
 
 rule(i_s100, intermediate, sum(m113, m100, s100)).
-rule(c_c100, compound, sum(m126, C100, s100)).
+rule(c_c100, compound, sum(m126, c100, s100)).
 rule(i_s101, intermediate, sum(m114, m127, s101)).
-rule(c_c101, compound, sum(m101, C101, s101)).
+rule(c_c101, compound, sum(m101, c101, s101)).
 rule(i_s102, intermediate, sum(m115, s102, m102)).
-rule(c_c102, compound, sum(s102, m128, C102)).
+rule(c_c102, compound, sum(s102, m128, c102)).
 rule(i_s110, intermediate, sum(m130, m143, s110)).
-rule(c_c110, compound, sum(m156, C110, s110)).
+rule(c_c110, compound, sum(m156, c110, s110)).
 rule(i_s111, intermediate, sum(m131, s111, m144)).
-rule(c_c111, compound, sum(m157, s111, C111)).
+rule(c_c111, compound, sum(m157, s111, c111)).
 rule(i_s112, intermediate, sum(m145, s112, m132)).
-rule(c_c112, compound, sum(m158, s112, C112)).
+rule(c_c112, compound, sum(m158, s112, c112)).
 rule(i_s120, intermediate, sum(m160, m173, s120)).
-rule(c_c120, compound, sum(m186, C120, s120)).
+rule(c_c120, compound, sum(m186, c120, s120)).
 rule(i_s121, intermediate, sum(m174, s121, m161)).
-rule(c_c121, compound, sum(s121, m187, C121)).
+rule(c_c121, compound, sum(s121, m187, c121)).
 rule(i_s122, intermediate, sum(m175, s122, m188)).
-rule(c_c122, compound, sum(m162, s122, C122)).
+rule(c_c122, compound, sum(m162, s122, c122)).
 
-rule(i_m200, intermediate, mult(C100, T300, m200)).
-rule(i_m201, intermediate, mult(C100, T301, m201)).
-rule(i_m202, intermediate, mult(C100, T302, m202)).
-rule(i_m213, intermediate, mult(C101, T310, m213)).
-rule(i_m214, intermediate, mult(C101, T311, m214)).
-rule(i_m215, intermediate, mult(C101, T312, m215)).
-rule(i_m226, intermediate, mult(C102, T320, m226)).
-rule(i_m227, intermediate, mult(C102, T321, m227)).
-rule(i_m228, intermediate, mult(C102, T322, m228)).
-rule(i_m230, intermediate, mult(C110, T300, m230)).
-rule(i_m231, intermediate, mult(C110, T301, m231)).
-rule(i_m232, intermediate, mult(C110, T302, m232)).
-rule(i_m243, intermediate, mult(C111, T310, m243)).
-rule(i_m244, intermediate, mult(C111, T311, m244)).
-rule(i_m245, intermediate, mult(C111, T312, m245)).
-rule(i_m256, intermediate, mult(C112, T320, m256)).
-rule(i_m257, intermediate, mult(C112, T321, m257)).
-rule(i_m258, intermediate, mult(C112, T322, m258)).
-rule(i_m260, intermediate, mult(C120, T300, m260)).
-rule(i_m261, intermediate, mult(C120, T301, m261)).
-rule(i_m262, intermediate, mult(C120, T302, m262)).
-rule(i_m273, intermediate, mult(C121, T310, m273)).
-rule(i_m274, intermediate, mult(C121, T311, m274)).
-rule(i_m275, intermediate, mult(C121, T312, m275)).
-rule(i_m286, intermediate, mult(C122, T320, m286)).
-rule(i_m287, intermediate, mult(C122, T321, m287)).
-rule(i_m288, intermediate, mult(C122, T322, m288)).
+rule(i_m200, intermediate, mult(c100, t300, m200)).
+rule(i_m201, intermediate, mult(c100, t301, m201)).
+rule(i_m202, intermediate, mult(c100, t302, m202)).
+rule(i_m213, intermediate, mult(c101, t310, m213)).
+rule(i_m214, intermediate, mult(c101, t311, m214)).
+rule(i_m215, intermediate, mult(c101, t312, m215)).
+rule(i_m226, intermediate, mult(c102, t320, m226)).
+rule(i_m227, intermediate, mult(c102, t321, m227)).
+rule(i_m228, intermediate, mult(c102, t322, m228)).
+rule(i_m230, intermediate, mult(c110, t300, m230)).
+rule(i_m231, intermediate, mult(c110, t301, m231)).
+rule(i_m232, intermediate, mult(c110, t302, m232)).
+rule(i_m243, intermediate, mult(c111, t310, m243)).
+rule(i_m244, intermediate, mult(c111, t311, m244)).
+rule(i_m245, intermediate, mult(c111, t312, m245)).
+rule(i_m256, intermediate, mult(c112, t320, m256)).
+rule(i_m257, intermediate, mult(c112, t321, m257)).
+rule(i_m258, intermediate, mult(c112, t322, m258)).
+rule(i_m260, intermediate, mult(c120, t300, m260)).
+rule(i_m261, intermediate, mult(c120, t301, m261)).
+rule(i_m262, intermediate, mult(c120, t302, m262)).
+rule(i_m273, intermediate, mult(c121, t310, m273)).
+rule(i_m274, intermediate, mult(c121, t311, m274)).
+rule(i_m275, intermediate, mult(c121, t312, m275)).
+rule(i_m286, intermediate, mult(c122, t320, m286)).
+rule(i_m287, intermediate, mult(c122, t321, m287)).
+rule(i_m288, intermediate, mult(c122, t322, m288)).
 
 rule(i_s200, intermediate, sum(m213, m200, s200)).
-rule(c_c200, compound, sum(m226, C200, s200)).
+rule(c_c200, compound, sum(m226, c200, s200)).
 rule(i_s201, intermediate, sum(m214, m227, s201)).
-rule(c_c201, compound, sum(m201, C201, s201)).
+rule(c_c201, compound, sum(m201, c201, s201)).
 rule(i_s202, intermediate, sum(m215, s202, m202)).
-rule(c_c202, compound, sum(s202, m228, C202)).
+rule(c_c202, compound, sum(s202, m228, c202)).
 rule(i_s210, intermediate, sum(m230, m243, s210)).
-rule(c_c210, compound, sum(m256, C210, s210)).
+rule(c_c210, compound, sum(m256, c210, s210)).
 rule(i_s211, intermediate, sum(m231, s211, m244)).
-rule(c_c211, compound, sum(m257, s211, C211)).
+rule(c_c211, compound, sum(m257, s211, c211)).
 rule(i_s212, intermediate, sum(m245, s212, m232)).
-rule(c_c212, compound, sum(m258, s212, C212)).
+rule(c_c212, compound, sum(m258, s212, c212)).
 rule(i_s220, intermediate, sum(m260, m273, s220)).
-rule(c_c220, compound, sum(m286, C220, s220)).
+rule(c_c220, compound, sum(m286, c220, s220)).
 rule(i_s221, intermediate, sum(m274, s221, m261)).
-rule(c_c221, compound, sum(s221, m287, C221)).
+rule(c_c221, compound, sum(s221, m287, c221)).
 rule(i_s222, intermediate, sum(m275, s222, m288)).
-rule(c_c222, compound, sum(m262, s222, C222)).
+rule(c_c222, compound, sum(m262, s222, c222)).
 
-rule(i_m300, intermediate, mult(C200, T400, m300)).
-rule(i_m301, intermediate, mult(C200, T401, m301)).
-rule(i_m302, intermediate, mult(C200, T402, m302)).
-rule(i_m313, intermediate, mult(C201, T410, m313)).
-rule(i_m314, intermediate, mult(C201, T411, m314)).
-rule(i_m315, intermediate, mult(C201, T412, m315)).
-rule(i_m326, intermediate, mult(C202, T420, m326)).
-rule(i_m327, intermediate, mult(C202, T421, m327)).
-rule(i_m328, intermediate, mult(C202, T422, m328)).
-rule(i_m330, intermediate, mult(C210, T400, m330)).
-rule(i_m331, intermediate, mult(C210, T401, m331)).
-rule(i_m332, intermediate, mult(C210, T402, m332)).
-rule(i_m343, intermediate, mult(C211, T410, m343)).
-rule(i_m344, intermediate, mult(C211, T411, m344)).
-rule(i_m345, intermediate, mult(C211, T412, m345)).
-rule(i_m356, intermediate, mult(C212, T420, m356)).
-rule(i_m357, intermediate, mult(C212, T421, m357)).
-rule(i_m358, intermediate, mult(C212, T422, m358)).
-rule(i_m360, intermediate, mult(C220, T400, m360)).
-rule(i_m361, intermediate, mult(C220, T401, m361)).
-rule(i_m362, intermediate, mult(C220, T402, m362)).
-rule(i_m373, intermediate, mult(C221, T410, m373)).
-rule(i_m374, intermediate, mult(C221, T411, m374)).
-rule(i_m375, intermediate, mult(C221, T412, m375)).
-rule(i_m386, intermediate, mult(C222, T420, m386)).
-rule(i_m387, intermediate, mult(C222, T421, m387)).
-rule(i_m388, intermediate, mult(C222, T422, m388)).
+rule(i_m300, intermediate, mult(c200, t400, m300)).
+rule(i_m301, intermediate, mult(c200, t401, m301)).
+rule(i_m302, intermediate, mult(c200, t402, m302)).
+rule(i_m313, intermediate, mult(c201, t410, m313)).
+rule(i_m314, intermediate, mult(c201, t411, m314)).
+rule(i_m315, intermediate, mult(c201, t412, m315)).
+rule(i_m326, intermediate, mult(c202, t420, m326)).
+rule(i_m327, intermediate, mult(c202, t421, m327)).
+rule(i_m328, intermediate, mult(c202, t422, m328)).
+rule(i_m330, intermediate, mult(c210, t400, m330)).
+rule(i_m331, intermediate, mult(c210, t401, m331)).
+rule(i_m332, intermediate, mult(c210, t402, m332)).
+rule(i_m343, intermediate, mult(c211, t410, m343)).
+rule(i_m344, intermediate, mult(c211, t411, m344)).
+rule(i_m345, intermediate, mult(c211, t412, m345)).
+rule(i_m356, intermediate, mult(c212, t420, m356)).
+rule(i_m357, intermediate, mult(c212, t421, m357)).
+rule(i_m358, intermediate, mult(c212, t422, m358)).
+rule(i_m360, intermediate, mult(c220, t400, m360)).
+rule(i_m361, intermediate, mult(c220, t401, m361)).
+rule(i_m362, intermediate, mult(c220, t402, m362)).
+rule(i_m373, intermediate, mult(c221, t410, m373)).
+rule(i_m374, intermediate, mult(c221, t411, m374)).
+rule(i_m375, intermediate, mult(c221, t412, m375)).
+rule(i_m386, intermediate, mult(c222, t420, m386)).
+rule(i_m387, intermediate, mult(c222, t421, m387)).
+rule(i_m388, intermediate, mult(c222, t422, m388)).
 
 rule(i_s300, intermediate, sum(m313, m300, s300)).
-rule(c_c300, compound, sum(m326, C300, s300)).
+rule(c_c300, compound, sum(m326, c300, s300)).
 rule(i_s301, intermediate, sum(m314, m327, s301)).
-rule(c_c301, compound, sum(m301, C301, s301)).
+rule(c_c301, compound, sum(m301, c301, s301)).
 rule(i_s302, intermediate, sum(m315, s302, m302)).
-rule(c_c302, compound, sum(s302, m328, C302)).
+rule(c_c302, compound, sum(s302, m328, c302)).
 rule(i_s310, intermediate, sum(m330, m343, s310)).
-rule(c_c310, compound, sum(m356, C310, s310)).
+rule(c_c310, compound, sum(m356, c310, s310)).
 rule(i_s311, intermediate, sum(m331, s311, m344)).
-rule(c_c311, compound, sum(m357, s311, C311)).
+rule(c_c311, compound, sum(m357, s311, c311)).
 rule(i_s312, intermediate, sum(m345, s312, m332)).
-rule(c_c312, compound, sum(m358, s312, C312)).
+rule(c_c312, compound, sum(m358, s312, c312)).
 rule(i_s320, intermediate, sum(m360, m373, s320)).
-rule(c_c320, compound, sum(m386, C320, s320)).
+rule(c_c320, compound, sum(m386, c320, s320)).
 rule(i_s321, intermediate, sum(m374, s321, m361)).
-rule(c_c321, compound, sum(s321, m387, C321)).
+rule(c_c321, compound, sum(s321, m387, c321)).
 rule(i_s322, intermediate, sum(m375, s322, m388)).
-rule(c_c322, compound, sum(m362, s322, C322)).
+rule(c_c322, compound, sum(m362, s322, c322)).
 
-rule(i_m400, intermediate, mult(C300, T500, m400)).
-rule(i_m401, intermediate, mult(C300, T501, m401)).
-rule(i_m402, intermediate, mult(C300, T502, m402)).
-rule(i_m413, intermediate, mult(C301, T510, m413)).
-rule(i_m414, intermediate, mult(C301, T511, m414)).
-rule(i_m415, intermediate, mult(C301, T512, m415)).
-rule(i_m426, intermediate, mult(C302, T520, m426)).
-rule(i_m427, intermediate, mult(C302, T521, m427)).
-rule(i_m428, intermediate, mult(C302, T522, m428)).
-rule(i_m430, intermediate, mult(C310, T500, m430)).
-rule(i_m431, intermediate, mult(C310, T501, m431)).
-rule(i_m432, intermediate, mult(C310, T502, m432)).
-rule(i_m443, intermediate, mult(C311, T510, m443)).
-rule(i_m444, intermediate, mult(C311, T511, m444)).
-rule(i_m445, intermediate, mult(C311, T512, m445)).
-rule(i_m456, intermediate, mult(C312, T520, m456)).
-rule(i_m457, intermediate, mult(C312, T521, m457)).
-rule(i_m458, intermediate, mult(C312, T522, m458)).
-rule(i_m460, intermediate, mult(C320, T500, m460)).
-rule(i_m461, intermediate, mult(C320, T501, m461)).
-rule(i_m462, intermediate, mult(C320, T502, m462)).
-rule(i_m473, intermediate, mult(C321, T510, m473)).
-rule(i_m474, intermediate, mult(C321, T511, m474)).
-rule(i_m475, intermediate, mult(C321, T512, m475)).
-rule(i_m486, intermediate, mult(C322, T520, m486)).
-rule(i_m487, intermediate, mult(C322, T521, m487)).
-rule(i_m488, intermediate, mult(C322, T522, m488)).
+rule(i_m400, intermediate, mult(c300, t500, m400)).
+rule(i_m401, intermediate, mult(c300, t501, m401)).
+rule(i_m402, intermediate, mult(c300, t502, m402)).
+rule(i_m413, intermediate, mult(c301, t510, m413)).
+rule(i_m414, intermediate, mult(c301, t511, m414)).
+rule(i_m415, intermediate, mult(c301, t512, m415)).
+rule(i_m426, intermediate, mult(c302, t520, m426)).
+rule(i_m427, intermediate, mult(c302, t521, m427)).
+rule(i_m428, intermediate, mult(c302, t522, m428)).
+rule(i_m430, intermediate, mult(c310, t500, m430)).
+rule(i_m431, intermediate, mult(c310, t501, m431)).
+rule(i_m432, intermediate, mult(c310, t502, m432)).
+rule(i_m443, intermediate, mult(c311, t510, m443)).
+rule(i_m444, intermediate, mult(c311, t511, m444)).
+rule(i_m445, intermediate, mult(c311, t512, m445)).
+rule(i_m456, intermediate, mult(c312, t520, m456)).
+rule(i_m457, intermediate, mult(c312, t521, m457)).
+rule(i_m458, intermediate, mult(c312, t522, m458)).
+rule(i_m460, intermediate, mult(c320, t500, m460)).
+rule(i_m461, intermediate, mult(c320, t501, m461)).
+rule(i_m462, intermediate, mult(c320, t502, m462)).
+rule(i_m473, intermediate, mult(c321, t510, m473)).
+rule(i_m474, intermediate, mult(c321, t511, m474)).
+rule(i_m475, intermediate, mult(c321, t512, m475)).
+rule(i_m486, intermediate, mult(c322, t520, m486)).
+rule(i_m487, intermediate, mult(c322, t521, m487)).
+rule(i_m488, intermediate, mult(c322, t522, m488)).
 
 rule(i_s400, intermediate, sum(m413, m400, s400)).
-rule(c_c400, compound, sum(m426, C400, s400)).
+rule(c_c400, compound, sum(m426, c400, s400)).
 rule(i_s401, intermediate, sum(m414, m427, s401)).
-rule(c_c401, compound, sum(m401, C401, s401)).
+rule(c_c401, compound, sum(m401, c401, s401)).
 rule(i_s402, intermediate, sum(m415, s402, m402)).
-rule(c_c402, compound, sum(s402, m428, C402)).
+rule(c_c402, compound, sum(s402, m428, c402)).
 rule(i_s410, intermediate, sum(m430, m443, s410)).
-rule(c_c410, compound, sum(m456, C410, s410)).
+rule(c_c410, compound, sum(m456, c410, s410)).
 rule(i_s411, intermediate, sum(m431, s411, m444)).
-rule(c_c411, compound, sum(m457, s411, C411)).
+rule(c_c411, compound, sum(m457, s411, c411)).
 rule(i_s412, intermediate, sum(m445, s412, m432)).
-rule(c_c412, compound, sum(m458, s412, C412)).
+rule(c_c412, compound, sum(m458, s412, c412)).
 rule(i_s420, intermediate, sum(m460, m473, s420)).
-rule(c_c420, compound, sum(m486, C420, s420)).
+rule(c_c420, compound, sum(m486, c420, s420)).
 rule(i_s421, intermediate, sum(m474, s421, m461)).
-rule(c_c421, compound, sum(s421, m487, C421)).
+rule(c_c421, compound, sum(s421, m487, c421)).
 rule(i_s422, intermediate, sum(m475, s422, m488)).
-rule(c_c422, compound, sum(m462, s422, C422)).
+rule(c_c422, compound, sum(m462, s422, c422)).
 
 % End Effector
 
-rule(e_m_x0, effector, mult(C400, x_end, m_x_end0)).
-rule(e_m_x1, effector, mult(C401, y_end, m_x_end1)).
-rule(e_m_x2, effector, mult(C402, z_end, m_x_end2)).
+rule(e_m_x0, effector, mult(c400, x_end, m_x_end0)).
+rule(e_m_x1, effector, mult(c401, y_end, m_x_end1)).
+rule(e_m_x2, effector, mult(c402, z_end, m_x_end2)).
 rule(e_s_x, effector, sum(m_x_end0, m_x_end1, s_x_end)).
 rule(e_x, effector, sum(m_x_end2, s_x_end, x_end)).
 
-rule(e_m_y0, effector, mult(C410, x_end, m_y_end0)).
-rule(e_m_y1, effector, mult(C411, y_end, m_y_end1)).
-rule(e_m_y2, effector, mult(C412, z_end, m_y_end2)).
+rule(e_m_y0, effector, mult(c410, x_end, m_y_end0)).
+rule(e_m_y1, effector, mult(c411, y_end, m_y_end1)).
+rule(e_m_y2, effector, mult(c412, z_end, m_y_end2)).
 rule(e_s_y, effector, sum(m_y_end0, m_y_end1, s_y_end)).
 rule(e_y, effector, sum(m_y_end2, s_y_end, y_end)).
 
-rule(e_m_z0, effector, mult(C420, x_end, m_z_end0)).
-rule(e_m_z1, effector, mult(C421, y_end, m_z_end1)).
-rule(e_m_z2, effector, mult(C422, z_end, m_z_end2)).
+rule(e_m_z0, effector, mult(c420, x_end, m_z_end0)).
+rule(e_m_z1, effector, mult(c421, y_end, m_z_end1)).
+rule(e_m_z2, effector, mult(c422, z_end, m_z_end2)).
 rule(e_s_z, effector, sum(m_z_end0, m_z_end1, s_z_end)).
 rule(e_z, effector, sum(m_z_end2, s_z_end, z_end)).
 

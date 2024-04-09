@@ -7,8 +7,9 @@
 
 
 #show holds/4.
-#show holds_constraint/3.
+%#show holds_constraint/3.
 #show action/4.
+#show rule/3.
 
 %#show time/1.
 %#show timemax/1.
