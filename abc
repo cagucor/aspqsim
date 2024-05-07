@@ -1,0 +1,189 @@
+Answer: 1
+p(0) = {
+	m00: zero...inf/std
+	m01: minf...zero/std
+	m02: minf...zero/inc
+	m10: minf...zero/inc
+	m11: zero...inf/std
+	m12: minf...zero/inc
+	m20: zero...inf/dec
+	m21: zero...inf/std
+	m22: zero...inf/std
+	theta_delta_0: theta_delta_0_l_10...zero/std
+	theta_delta_1: theta_delta_1_l_19...theta_delta_1_l_20/std
+	txm0: zero...inf/inc
+	txm1: minf...zero/inc
+	txm2: zero...inf/std
+	txs0: zero/inc
+	tym0: minf...zero/std
+	tym1: zero...inf/dec
+	tym2: zero...inf/std
+	tys0: zero...inf/dec
+	tzm0: zero...inf/std
+	tzm1: zero...inf/dec
+	tzm2: minf...zero/dec
+	tzs0: zero/dec
+	x: zero...inf/inc
+	x_hat_0: zero/std
+	x_hat_1: x_hat_1_l_2...x_hat_1_l_3/std
+	y: zero...inf/dec
+	y_hat_0: zero/std
+	y_hat_1: minf...y_hat_1_l_1/std
+	z: minf...zero/dec
+	z_hat_0: z_hat_0_l_10...inf/std
+	z_hat_1: zero/std
+	}
+Action = {
+	}
+Constraints: 
+
+i(0...1) = {
+	m00: zero...inf/std
+	m01: minf...zero/std
+	m02: minf...zero/inc
+	m10: minf...zero/inc
+	m11: zero...inf/std
+	m12: minf...zero/inc
+	m20: zero...inf/dec
+	m21: zero...inf/std
+	m22: zero...inf/std
+	theta_delta_0: theta_delta_0_l_10...zero/std
+	theta_delta_1: theta_delta_1_l_19...theta_delta_1_l_20/std
+	txm0: zero...inf/inc
+	txm1: minf...zero/inc
+	txm2: zero...inf/std
+	txs0: zero...inf/inc
+	tym0: minf...zero/std
+	tym1: zero...inf/dec
+	tym2: zero...inf/std
+	tys0: zero...inf/dec
+	tzm0: zero...inf/std
+	tzm1: zero...inf/dec
+	tzm2: minf...zero/dec
+	tzs0: minf...zero/dec
+	x: zero...inf/inc
+	x_hat_0: zero/std
+	x_hat_1: x_hat_1_l_2...x_hat_1_l_3/std
+	y: zero...inf/dec
+	y_hat_0: zero/std
+	y_hat_1: minf...y_hat_1_l_1/std
+	z: minf...zero/dec
+	z_hat_0: z_hat_0_l_10...inf/std
+	z_hat_1: zero...z_hat_1_l_7/inc
+	}
+Action = {
+	}
+Constraints: 
+
+p(1) = {
+	m00: zero...inf/std
+	m01: minf...zero/std
+	m02: minf...zero/std
+	m10: minf...zero/std
+	m11: zero...inf/std
+	m12: minf...zero/std
+	m20: zero...inf/std
+	m21: zero...inf/std
+	m22: zero...inf/std
+	theta_delta_0: theta_delta_0_l_10...zero/std
+	theta_delta_1: theta_delta_1_l_19...theta_delta_1_l_20/std
+	txm0: zero...inf/std
+	txm1: minf...zero/std
+	txm2: zero...inf/std
+	txs0: zero...inf/std
+	tym0: minf...zero/std
+	tym1: zero...inf/std
+	tym2: zero...inf/std
+	tys0: zero...inf/std
+	tzm0: zero...inf/std
+	tzm1: zero...inf/std
+	tzm2: minf...zero/std
+	tzs0: minf...zero/std
+	x: zero...inf/std
+	x_hat_0: zero/std
+	x_hat_1: x_hat_1_l_2...x_hat_1_l_3/inc
+	y: zero...inf/std
+	y_hat_0: zero/std
+	y_hat_1: minf...y_hat_1_l_1/inc
+	z: minf...zero/std
+	z_hat_0: z_hat_0_l_10...inf/dec
+	z_hat_1: zero...z_hat_1_l_7/inc
+	}
+Action = {
+	}
+Constraints: 
+
+i(1...2) = {
+	m00: zero...inf/std
+	m01: minf...zero/std
+	m02: minf...zero/std
+	m10: minf...zero/dec
+	m11: zero...inf/std
+	m12: minf...zero/std
+	m20: zero...inf/inc
+	m21: zero...inf/std
+	m22: zero...inf/std
+	theta_delta_0: theta_delta_0_l_10...zero/std
+	theta_delta_1: theta_delta_1_l_19...theta_delta_1_l_20/std
+	txm0: zero...inf/dec
+	txm1: minf...zero/std
+	txm2: zero...inf/std
+	txs0: zero...inf/dec
+	tym0: minf...zero/std
+	tym1: zero...inf/std
+	tym2: zero...inf/std
+	tys0: zero...inf/std
+	tzm0: zero...inf/std
+	tzm1: zero...inf/std
+	tzm2: minf...zero/std
+	tzs0: minf...zero/std
+	x: zero...inf/dec
+	x_hat_0: zero/std
+	x_hat_1: x_hat_1_l_2...x_hat_1_l_3/inc
+	y: zero...inf/std
+	y_hat_0: zero/std
+	y_hat_1: minf...y_hat_1_l_1/inc
+	z: minf...zero/std
+	z_hat_0: z_hat_0_l_10...inf/dec
+	z_hat_1: zero...z_hat_1_l_7/inc
+	}
+Action = {
+	}
+Constraints: 
+
+p(2) = {
+	m00: zero...inf/std
+	m01: minf...zero/dec
+	m02: minf...zero/dec
+	m10: minf...zero/dec
+	m11: zero...inf/std
+	m12: minf...zero/dec
+	m20: zero...inf/inc
+	m21: zero...inf/inc
+	m22: zero...inf/std
+	theta_delta_0: theta_delta_0_l_10...zero/std
+	theta_delta_1: theta_delta_1_l_19...theta_delta_1_l_20/std
+	txm0: zero...inf/dec
+	txm1: minf...zero/dec
+	txm2: zero...inf/inc
+	txs0: zero/dec
+	tym0: minf...zero/dec
+	tym1: zero...inf/inc
+	tym2: zero...inf/inc
+	tys0: zero...inf/inc
+	tzm0: zero...inf/inc
+	tzm1: zero...inf/inc
+	tzm2: minf...zero/dec
+	tzs0: minf...zero/inc
+	x: zero...inf/dec
+	x_hat_0: zero/std
+	x_hat_1: x_hat_1_l_3/inc
+	y: zero...inf/inc
+	y_hat_0: zero/std
+	y_hat_1: y_hat_1_l_1/inc
+	z: minf...zero/dec
+	z_hat_0: z_hat_0_l_10/dec
+	z_hat_1: zero...z_hat_1_l_7/inc
+	}
+Action = {
+	}
