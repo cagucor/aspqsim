@@ -1,0 +1,11 @@
+clingo version 5.7.1
+Reading from db.lp ...
+Solving...
+Answer: 1
+rule(qde_0,flowing,mplus(level,flow)) holds(p(0),level,land(zero),std) holds(p(0),flow,land(zero),std) holds(i(0,1),flow,interval(zero,positive),inc) holds(i(0,1),level,interval(zero,half),inc) holds(p(1),flow,interval(zero,positive),inc) holds(p(1),level,land(half),inc) holds(i(1,2),flow,interval(zero,positive),inc) holds(i(1,2),level,interval(half,full),inc) holds(p(2),level,land(full),std) holds(p(2),flow,land(positive),std)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 0.009s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.009s
